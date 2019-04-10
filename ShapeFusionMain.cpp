@@ -18,6 +18,7 @@
 
 #include "ShapeFusionMain.h"
 #include "ShapeFusionMenus.h"
+#include "config.h"
 
 /*
 * This is the top-level window of the application.
@@ -38,11 +39,12 @@ wxDocParentFrame(manager, frame, id, title, pos, size, type)
 void ShapeFusionMain::OnAbout(wxCommandEvent& WXUNUSED(event))
 {
 	 wxMessageDialog *dlg = new wxMessageDialog(this,
-								wxT("ShapeFusion 0.6\nhttp://shapefusion.sourceforge.net\n\nCopyright 2000-2012, Tito Dal Canton\n\n"
-									"An editor for Marathon 2, Marathon Infinity and Aleph One shapes and sounds files. "
+	 							PACKAGE_STRING "\n" PACKAGE_URL "\n\n"
+	 							wxT("Copyright 2000-2012, Tito Dal Canton") "\n\n"
+								wxT("An editor for Marathon 2, Marathon Infinity and Aleph One shapes and sounds files. "
 									"Released under the terms of the GNU General Public License: for more information "
 									"see the COPYING file that comes with ShapeFusion."),
-								wxT("About ShapeFusion"), wxOK | wxICON_INFORMATION);
+								_("About ShapeFusion"), wxOK | wxICON_INFORMATION);
 	 dlg->ShowModal();
 	 dlg->Destroy();
 }

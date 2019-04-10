@@ -1,7 +1,7 @@
 dnl Process this file with autoconf to produce a configure script.
 dnl Written in 2000 by Christian Bauer <Christian.Bauer@uni-mainz.de>
 
-AC_INIT([ShapeFusion], [0.7], [http://sourceforge.net/bugs/?group_id=1997], [shapefusion])
+AC_INIT([ShapeFusion], [0.6b1], [https://sf.net/p/shapefusion/bugs/], [shapefusion], [http://shapefusion.sf.net/])
 AC_CONFIG_MACRO_DIR([m4])
 AC_PREREQ([2.65])
 
