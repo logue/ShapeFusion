@@ -41,10 +41,10 @@ wxDocTemplate* ShapeFusionDocManager::FindTemplateForPath(const wxString& path)
 	wxFileName filename(path);
 	wxString ext = filename.GetExt();
 	
-	if (ext == _("sndA") || ext == _("snd2")) {
+	if (ext == _T("sndA") || ext == _T("snd2")) {
 		return ::FindTemplate(GetTemplates(), _("Sounds"));
-	} else if (ext == _("shpA") || ext == _("shp2")) {
-		return ::FindTemplate(GetTemplates(), _("Shapes"));
+	} else if (ext == _T("shpA") || ext == _T("shp2")) {
+		return ::FindTemplate(GetTemplates(), _T("Shapes"));
 	}
 
 	wxFileInputStream stream(path);

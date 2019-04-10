@@ -39,6 +39,17 @@ bool ShapeFusionApp::OnInit(void)
 	if (!wxApp::OnInit())
 		return false;
 	
+	// Make Traslatable
+	wxLocale::AddCatalogLookupPathPrefix("lang");
+
+    wxLocale locale;
+	// Add Japanese support.
+    locale.Init( wxLANGUAGE_JAPANESE, wxLOCALE_DONT_LOAD_DEFAULT );
+	// ShapeFusion Dictionary
+    locale.AddCatalog("messages");
+	// WxWidget Standard Dictionary
+    locale.AddCatalog("wxstd");
+	
 	// so that we can import every sort of bitmap format
 	wxInitAllImageHandlers();
 		
@@ -63,14 +74,14 @@ bool ShapeFusionApp::OnInit(void)
 #ifdef __WXMAC__
 	// a hack to make the frame invisible on MacOS, which is more Mac-like
 	// http://www.wxwidgets.org/wiki/index.php/WxMac_Issues#The_Mac_OS_menu_bar
-	frame = new ShapeFusionMain(m_docManager, (wxFrame *)NULL, wxID_ANY, _T("ShapeFusion Workspace"), wxPoint(5,5), wxSize(0,0), 0);
+	frame = new ShapeFusionMain(m_docManager, (wxFrame *)NULL, wxID_ANY, _("ShapeFusion Workspace"), wxPoint(5,5), wxSize(0,0), 0);
 #else
-    frame = new ShapeFusionMain(m_docManager, (wxFrame *)NULL, wxID_ANY, _T("ShapeFusion Workspace"), wxDefaultPosition, wxDefaultSize, wxDEFAULT_FRAME_STYLE);
+    frame = new ShapeFusionMain(m_docManager, (wxFrame *)NULL, wxID_ANY, _("ShapeFusion Workspace"), wxDefaultPosition, wxDefaultSize, wxDEFAULT_FRAME_STYLE);
 #endif
 
     // Give it an icon (this is ignored in MDI mode: uses resources)
 #ifdef __WXMSW__
-    frame->SetIcon(wxIcon(_T("doc_icn")));
+    frame->SetIcon(wxIcon("APPLICATION_ICO"));
 #endif
 
     wxMenuBar *menu_bar = new wxMenuBar;

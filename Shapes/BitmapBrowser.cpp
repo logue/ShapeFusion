@@ -254,7 +254,7 @@ void BitmapBrowser::AddBitmap(ShapesBitmap *bp)
 				Refresh();
 			}
 		} else {
-			wxLogError(wxT("[BitmapBrowser] Added a bitmap with NULL pixels"));
+			wxLogError(_("[BitmapBrowser] Added a bitmap with NULL pixels"));
 		}
 	}
 }

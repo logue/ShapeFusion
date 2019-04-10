@@ -116,7 +116,7 @@ void BitmapView::SetBitmap(ShapesBitmap *bp)
 				mDecBmp = wxBitmap(ShapesBitmapToImage(mEncBmp, mColorTable, mWhiteTransparency));
 			Refresh();
 		} else {
-			wxLogError(wxT("[BitmapView] Addes a bitmap with NULL pixels"));
+			wxLogError(_("[BitmapView] Addes a bitmap with NULL pixels"));
 			SetVirtualSize(0, 0);
 		}
 	} else {

@@ -1,0 +1,2789 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) YEAR THE PACKAGE'S COPYRIGHT HOLDER
+# This file is distributed under the same license as the PACKAGE package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: ShapeFusion\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2019-04-11 07:59+0900\n"
+"PO-Revision-Date: 2019-04-11 08:27+0900\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Last-Translator: \n"
+"Language-Team: logue@hotmail.co.jp\n"
+"X-Generator: Poedit 2.2.1\n"
+"Plural-Forms: nplurals=1; plural=0;\n"
+"Language: ja\n"
+"X-Poedit-SourceCharset: UTF-8\n"
+"X-Poedit-Basepath: ..\n"
+"X-Poedit-SearchPath-0: .\n"
+"X-Poedit-SearchPath-1: Shapes\n"
+"X-Poedit-SearchPath-2: Sounds\n"
+
+#: ../DefaultNames.cpp:26 ../DefaultNames.cpp:82 ../DefaultNames.cpp:111
+msgid "Marine"
+msgstr ""
+
+#: ../DefaultNames.cpp:27
+msgid "Minor Tick"
+msgstr ""
+
+#: ../DefaultNames.cpp:28
+msgid "Major Tick"
+msgstr ""
+
+#: ../DefaultNames.cpp:29
+msgid "Kamikaze Tick"
+msgstr ""
+
+#: ../DefaultNames.cpp:30
+msgid "Minor S'pht"
+msgstr ""
+
+#: ../DefaultNames.cpp:31
+msgid "Major S'pht"
+msgstr ""
+
+#: ../DefaultNames.cpp:32
+msgid "Minor Invisible S'pht"
+msgstr ""
+
+#: ../DefaultNames.cpp:33
+msgid "Major Invisible S'pht"
+msgstr ""
+
+#: ../DefaultNames.cpp:34
+msgid "Minor Pfhor"
+msgstr ""
+
+#: ../DefaultNames.cpp:35
+msgid "Major Pfhor"
+msgstr ""
+
+#: ../DefaultNames.cpp:36
+msgid "Minor Projectile Pfhor"
+msgstr ""
+
+#: ../DefaultNames.cpp:37
+msgid "Major Projectile Pfhor"
+msgstr ""
+
+#: ../DefaultNames.cpp:38
+msgid "Green Bob"
+msgstr ""
+
+#: ../DefaultNames.cpp:39
+msgid "Blue Bob"
+msgstr ""
+
+#: ../DefaultNames.cpp:40
+msgid "Security Bob"
+msgstr ""
+
+#: ../DefaultNames.cpp:41 ../DefaultNames.cpp:124
+msgid "Assimilated Bob"
+msgstr ""
+
+#: ../DefaultNames.cpp:42
+msgid "Minor Drone"
+msgstr ""
+
+#: ../DefaultNames.cpp:43
+msgid "Major Drone"
+msgstr ""
+
+#: ../DefaultNames.cpp:44
+msgid "Big Minor Drone"
+msgstr ""
+
+#: ../DefaultNames.cpp:45
+msgid "Big Angry Drone"
+msgstr ""
+
+#: ../DefaultNames.cpp:46 ../DefaultNames.cpp:114
+msgid "Possessed Drone"
+msgstr ""
+
+#: ../DefaultNames.cpp:47
+msgid "Minor Cyborg"
+msgstr ""
+
+#: ../DefaultNames.cpp:48
+msgid "Major Cyborg"
+msgstr ""
+
+#: ../DefaultNames.cpp:49
+msgid "Minor Flame Cyborg"
+msgstr ""
+
+#: ../DefaultNames.cpp:50
+msgid "Major Flame Cyborg"
+msgstr ""
+
+#: ../DefaultNames.cpp:51
+msgid "Minor Enforcer"
+msgstr ""
+
+#: ../DefaultNames.cpp:52
+msgid "Major Enforcer"
+msgstr ""
+
+#: ../DefaultNames.cpp:53
+msgid "Minor Hunter"
+msgstr ""
+
+#: ../DefaultNames.cpp:54
+msgid "Major Hunter"
+msgstr ""
+
+#: ../DefaultNames.cpp:55
+msgid "Minor Trooper"
+msgstr ""
+
+#: ../DefaultNames.cpp:56
+msgid "Major Trooper"
+msgstr ""
+
+#: ../DefaultNames.cpp:57
+msgid "Mother of All Cyborgs"
+msgstr ""
+
+#: ../DefaultNames.cpp:58
+msgid "Mother of All Hunters"
+msgstr ""
+
+#: ../DefaultNames.cpp:59
+msgid "Sewage F'lickta"
+msgstr ""
+
+#: ../DefaultNames.cpp:60
+msgid "Water F'lickta"
+msgstr ""
+
+#: ../DefaultNames.cpp:61
+msgid "Lava F'lickta"
+msgstr ""
+
+#: ../DefaultNames.cpp:62
+msgid "Minor S'pht'Kr"
+msgstr ""
+
+#: ../DefaultNames.cpp:63
+msgid "Major S'pht'Kr"
+msgstr ""
+
+#: ../DefaultNames.cpp:64
+msgid "Minor Juggernaut"
+msgstr ""
+
+#: ../DefaultNames.cpp:65
+msgid "Major Juggernaut"
+msgstr ""
+
+#: ../DefaultNames.cpp:66
+msgid "Tiny P'fhor"
+msgstr ""
+
+#: ../DefaultNames.cpp:67
+msgid "Tiny Bob"
+msgstr ""
+
+#: ../DefaultNames.cpp:68
+msgid "Tiny Flick'ta"
+msgstr ""
+
+#: ../DefaultNames.cpp:69
+msgid "Green VacBob"
+msgstr ""
+
+#: ../DefaultNames.cpp:70
+msgid "Blue VacBob"
+msgstr ""
+
+#: ../DefaultNames.cpp:71
+msgid "Security VacBob"
+msgstr ""
+
+#: ../DefaultNames.cpp:72
+msgid "Assimilated VacBob"
+msgstr ""
+
+#: ../DefaultNames.cpp:76
+msgid "Interface"
+msgstr ""
+
+#: ../DefaultNames.cpp:77
+msgid "Weapons in Hand"
+msgstr ""
+
+#: ../DefaultNames.cpp:78 ../DefaultNames.cpp:120
+msgid "Juggernaut"
+msgstr ""
+
+#: ../DefaultNames.cpp:79 ../DefaultNames.cpp:125
+msgid "Tick"
+msgstr ""
+
+#: ../DefaultNames.cpp:80
+msgid "Explosion Effects"
+msgstr ""
+
+#: ../DefaultNames.cpp:81 ../DefaultNames.cpp:118
+msgid "Hunter"
+msgstr ""
+
+#: ../DefaultNames.cpp:83
+msgid "Items"
+msgstr ""
+
+#: ../DefaultNames.cpp:84
+msgid "Trooper"
+msgstr ""
+
+#: ../DefaultNames.cpp:85
+msgid "Pfhor fighter"
+msgstr ""
+
+#: ../DefaultNames.cpp:86 ../DefaultNames.cpp:115
+msgid "S'pht'Kr"
+msgstr ""
+
+#: ../DefaultNames.cpp:87 ../DefaultNames.cpp:126
+msgid "F'lickta"
+msgstr ""
+
+#: ../DefaultNames.cpp:88 ../DefaultNames.cpp:112
+msgid "Bob"
+msgstr ""
+
+#: ../DefaultNames.cpp:89
+msgid "VacBob (Inf only)"
+msgstr ""
+
+#: ../DefaultNames.cpp:90 ../DefaultNames.cpp:119
+msgid "Enforcer"
+msgstr ""
+
+#: ../DefaultNames.cpp:91 ../DefaultNames.cpp:121
+msgid "Drone"
+msgstr ""
+
+#: ../DefaultNames.cpp:92 ../DefaultNames.cpp:122
+msgid "S'pht"
+msgstr ""
+
+#: ../DefaultNames.cpp:93
+msgid "Walls 1 (Water)"
+msgstr ""
+
+#: ../DefaultNames.cpp:94
+msgid "Walls 2 (Lava)"
+msgstr ""
+
+#: ../DefaultNames.cpp:95
+msgid "Walls 3 (Sewage)"
+msgstr ""
+
+#: ../DefaultNames.cpp:96
+msgid "Walls 4 (Jjaro)"
+msgstr ""
+
+#: ../DefaultNames.cpp:97
+msgid "Walls 5 (Pfhor)"
+msgstr ""
+
+#: ../DefaultNames.cpp:98
+msgid "Scenery 1 (Water)"
+msgstr ""
+
+#: ../DefaultNames.cpp:99
+msgid "Scenery 2 (Lava)"
+msgstr ""
+
+#: ../DefaultNames.cpp:100
+msgid "Scenery 3 (Sewage)"
+msgstr ""
+
+#: ../DefaultNames.cpp:101
+msgid "Scenery 4 (Jjaro)"
+msgstr ""
+
+#: ../DefaultNames.cpp:102
+msgid "Scenery 5 (Pfhor)"
+msgstr ""
+
+#: ../DefaultNames.cpp:103
+msgid "Landscape 1 (Day)"
+msgstr ""
+
+#: ../DefaultNames.cpp:104
+msgid "Landscape 2 (Night)"
+msgstr ""
+
+#: ../DefaultNames.cpp:105
+msgid "Landscape 3 (Moon)"
+msgstr ""
+
+#: ../DefaultNames.cpp:106
+msgid "Landscape 4 (Space)"
+msgstr ""
+
+#: ../DefaultNames.cpp:107 ../DefaultNames.cpp:123
+msgid "Cyborg"
+msgstr ""
+
+#: ../DefaultNames.cpp:113
+msgid "Marathon Drone"
+msgstr ""
+
+#: ../DefaultNames.cpp:116
+msgid "Pfhor Fighter"
+msgstr ""
+
+#: ../DefaultNames.cpp:117
+msgid "Pfhor Trooper"
+msgstr ""
+
+#: ../DefaultNames.cpp:130
+msgid "Explosion"
+msgstr ""
+
+#: ../DefaultNames.cpp:131
+msgid "Electrical Staff"
+msgstr ""
+
+#: ../DefaultNames.cpp:132
+msgid "Projectile"
+msgstr ""
+
+#: ../DefaultNames.cpp:133 ../DefaultNames.cpp:277
+msgid "Absorbed"
+msgstr ""
+
+#: ../DefaultNames.cpp:134
+msgid "Flame"
+msgstr ""
+
+#: ../DefaultNames.cpp:135
+msgid "Claws"
+msgstr ""
+
+#: ../DefaultNames.cpp:136
+msgid "Alien Projectile"
+msgstr ""
+
+#: ../DefaultNames.cpp:137
+msgid "Hulk Slap"
+msgstr ""
+
+#: ../DefaultNames.cpp:138
+msgid "Compiler Bolt"
+msgstr ""
+
+#: ../DefaultNames.cpp:139 ../DefaultNames.cpp:501
+msgid "Fusion Bolt"
+msgstr ""
+
+#: ../DefaultNames.cpp:140 ../DefaultNames.cpp:503
+msgid "Hunter Bolt"
+msgstr ""
+
+#: ../DefaultNames.cpp:141 ../DefaultNames.cpp:233 ../DefaultNames.cpp:532
+msgid "Fist"
+msgstr ""
+
+#: ../DefaultNames.cpp:142
+msgid "Teleporter"
+msgstr ""
+
+#: ../DefaultNames.cpp:143 ../DefaultNames.cpp:510
+msgid "S'pht'Kr Bolt"
+msgstr ""
+
+#: ../DefaultNames.cpp:144
+msgid "Flick'ta Claws"
+msgstr ""
+
+#: ../DefaultNames.cpp:145
+msgid "Flick'ta Projectile"
+msgstr ""
+
+#: ../DefaultNames.cpp:146
+msgid "Crushing"
+msgstr ""
+
+#: ../DefaultNames.cpp:147 ../DefaultNames.cpp:364
+msgid "Lava"
+msgstr ""
+
+#: ../DefaultNames.cpp:148 ../DefaultNames.cpp:280
+msgid "Suffocation"
+msgstr ""
+
+#: ../DefaultNames.cpp:149 ../DefaultNames.cpp:365
+msgid "Goo"
+msgstr ""
+
+#: ../DefaultNames.cpp:150 ../DefaultNames.cpp:513
+msgid "Energy Drain"
+msgstr ""
+
+#: ../DefaultNames.cpp:151 ../DefaultNames.cpp:515
+msgid "Oxygen Drain"
+msgstr ""
+
+#: ../DefaultNames.cpp:152 ../DefaultNames.cpp:516
+msgid "Drone Bolt"
+msgstr ""
+
+#: ../DefaultNames.cpp:153 ../DefaultNames.cpp:255 ../DefaultNames.cpp:539
+msgid "Shotgun"
+msgstr ""
+
+#: ../DefaultNames.cpp:157
+msgid "Missile Explosion"
+msgstr ""
+
+#: ../DefaultNames.cpp:158
+msgid "Missile Contrail"
+msgstr ""
+
+#: ../DefaultNames.cpp:159
+msgid "Grenade Explosion"
+msgstr ""
+
+#: ../DefaultNames.cpp:160
+msgid "Grenade Contrail"
+msgstr ""
+
+#: ../DefaultNames.cpp:161 ../DefaultNames.cpp:293
+msgid "Bullet Ricochet"
+msgstr ""
+
+#: ../DefaultNames.cpp:162
+msgid "Alien Weapon Impact"
+msgstr ""
+
+#: ../DefaultNames.cpp:163
+msgid "Flamethrower Burst"
+msgstr ""
+
+#: ../DefaultNames.cpp:164
+msgid "Pfhor Hit"
+msgstr ""
+
+#: ../DefaultNames.cpp:165
+msgid "Marine Hit"
+msgstr ""
+
+#: ../DefaultNames.cpp:166
+msgid "Bob Hit"
+msgstr ""
+
+#: ../DefaultNames.cpp:167
+msgid "Assimilated Bob Hit"
+msgstr ""
+
+#: ../DefaultNames.cpp:168
+msgid "Enforcer Hit"
+msgstr ""
+
+#: ../DefaultNames.cpp:169
+msgid "S'pht Bolt Impact"
+msgstr ""
+
+#: ../DefaultNames.cpp:170
+msgid "Seeking S'pht Bolt Impact"
+msgstr ""
+
+#: ../DefaultNames.cpp:171
+msgid "S'pht Bolt Contrail"
+msgstr ""
+
+#: ../DefaultNames.cpp:172
+msgid "Staff-Bolt Impact"
+msgstr ""
+
+#: ../DefaultNames.cpp:173
+msgid "Staff Impact"
+msgstr ""
+
+#: ../DefaultNames.cpp:174
+msgid "Hunter Bolt Impact"
+msgstr ""
+
+#: ../DefaultNames.cpp:175
+msgid "Hunter Hit"
+msgstr ""
+
+#: ../DefaultNames.cpp:176
+msgid "Plasma Impact"
+msgstr ""
+
+#: ../DefaultNames.cpp:177
+msgid "Plasma Overload Impact"
+msgstr ""
+
+#: ../DefaultNames.cpp:178
+msgid "Plasma Contrail"
+msgstr ""
+
+#: ../DefaultNames.cpp:179
+msgid "Fist Impact"
+msgstr ""
+
+#: ../DefaultNames.cpp:180
+msgid "S'pht'Kr Bolt Impact"
+msgstr ""
+
+#: ../DefaultNames.cpp:181
+msgid "Major S'pht'Kr Bolt Impact"
+msgstr ""
+
+#: ../DefaultNames.cpp:182 ../DefaultNames.cpp:450
+msgid "S'pht'Kr Hit"
+msgstr ""
+
+#: ../DefaultNames.cpp:183
+msgid "Trooper Hit"
+msgstr ""
+
+#: ../DefaultNames.cpp:184
+msgid "Lamp Breaking 1"
+msgstr ""
+
+#: ../DefaultNames.cpp:185
+msgid "Lamp Breaking 2"
+msgstr ""
+
+#: ../DefaultNames.cpp:186
+msgid "Lamp Breaking 3"
+msgstr ""
+
+#: ../DefaultNames.cpp:187
+msgid "Lamp Breaking 4"
+msgstr ""
+
+#: ../DefaultNames.cpp:188
+msgid "Clank (melee hit)"
+msgstr ""
+
+#: ../DefaultNames.cpp:189 ../DefaultNames.cpp:273
+msgid "Teleport In"
+msgstr ""
+
+#: ../DefaultNames.cpp:190 ../DefaultNames.cpp:274
+msgid "Teleport Out"
+msgstr ""
+
+#: ../DefaultNames.cpp:191 ../DefaultNames.cpp:383
+msgid "Small Water Splash"
+msgstr ""
+
+#: ../DefaultNames.cpp:192
+msgid "Medium Water Splash"
+msgstr ""
+
+#: ../DefaultNames.cpp:193 ../DefaultNames.cpp:385
+msgid "Large Water Splash"
+msgstr ""
+
+#: ../DefaultNames.cpp:194
+msgid "Large Water Emergence"
+msgstr ""
+
+#: ../DefaultNames.cpp:195 ../DefaultNames.cpp:389
+msgid "Small Lava Splash"
+msgstr ""
+
+#: ../DefaultNames.cpp:196
+msgid "Medium Lava Splash"
+msgstr ""
+
+#: ../DefaultNames.cpp:197 ../DefaultNames.cpp:391
+msgid "Large Lava Splash"
+msgstr ""
+
+#: ../DefaultNames.cpp:198
+msgid "Large Lava Emergence"
+msgstr ""
+
+#: ../DefaultNames.cpp:199 ../DefaultNames.cpp:395
+msgid "Small Sewage Splash"
+msgstr ""
+
+#: ../DefaultNames.cpp:200
+msgid "Medium Sewage Splash"
+msgstr ""
+
+#: ../DefaultNames.cpp:201 ../DefaultNames.cpp:397
+msgid "Large Sewage Splash"
+msgstr ""
+
+#: ../DefaultNames.cpp:202
+msgid "Large Sewage Emergence"
+msgstr ""
+
+#: ../DefaultNames.cpp:203
+msgid "Small Goo Splash"
+msgstr ""
+
+#: ../DefaultNames.cpp:204
+msgid "Medium Goo Splash"
+msgstr ""
+
+#: ../DefaultNames.cpp:205
+msgid "Large Goo Splash"
+msgstr ""
+
+#: ../DefaultNames.cpp:206
+msgid "Large Goo Emergence"
+msgstr ""
+
+#: ../DefaultNames.cpp:207
+msgid "Drone Bolt Impact"
+msgstr ""
+
+#: ../DefaultNames.cpp:208
+msgid "Fast Drone Bolt Impact"
+msgstr ""
+
+#: ../DefaultNames.cpp:209
+msgid "Possessed Drone Bolt Impact"
+msgstr ""
+
+#: ../DefaultNames.cpp:210
+msgid "Drone Hit"
+msgstr ""
+
+#: ../DefaultNames.cpp:211
+msgid "Cyborg Grenade Detonation"
+msgstr ""
+
+#: ../DefaultNames.cpp:212 ../DefaultNames.cpp:338
+msgid "Cyborg Hit"
+msgstr ""
+
+#: ../DefaultNames.cpp:213
+msgid "Fusion Dispersal"
+msgstr ""
+
+#: ../DefaultNames.cpp:214
+msgid "Major Fusion Dispersal"
+msgstr ""
+
+#: ../DefaultNames.cpp:215
+msgid "Overloaded Fusion Dispersal"
+msgstr ""
+
+#: ../DefaultNames.cpp:216
+msgid "F'lickta Hit"
+msgstr ""
+
+#: ../DefaultNames.cpp:217
+msgid "F'lickta Glob Impact"
+msgstr ""
+
+#: ../DefaultNames.cpp:218
+msgid "Water Flick'ta Hit"
+msgstr ""
+
+#: ../DefaultNames.cpp:219
+msgid "Lava Flick'ta Hit"
+msgstr ""
+
+#: ../DefaultNames.cpp:220
+msgid "Flick'ta Lava Glob Impact"
+msgstr ""
+
+#: ../DefaultNames.cpp:221
+msgid "Flick'ta Claw Impact"
+msgstr ""
+
+#: ../DefaultNames.cpp:222
+msgid "Juggernaut Hit"
+msgstr ""
+
+#: ../DefaultNames.cpp:223
+msgid "Juggernaut Missile Contrail"
+msgstr ""
+
+#: ../DefaultNames.cpp:224
+msgid "Small Special Splash"
+msgstr ""
+
+#: ../DefaultNames.cpp:225
+msgid "Medium Special Splash"
+msgstr ""
+
+#: ../DefaultNames.cpp:226
+msgid "Large Special Splash"
+msgstr ""
+
+#: ../DefaultNames.cpp:227
+msgid "Special Emergence"
+msgstr ""
+
+#: ../DefaultNames.cpp:228 ../DefaultNames.cpp:477
+msgid "VacBob Hit"
+msgstr ""
+
+#: ../DefaultNames.cpp:229
+msgid "Assimilated VacBob Hit"
+msgstr ""
+
+#: ../DefaultNames.cpp:234
+msgid "Magnum Pistol"
+msgstr ""
+
+#: ../DefaultNames.cpp:235
+msgid "Magnum Magazine"
+msgstr ""
+
+#: ../DefaultNames.cpp:236 ../DefaultNames.cpp:534
+msgid "Plasma Pistol"
+msgstr ""
+
+#: ../DefaultNames.cpp:237
+msgid "Plasma Battery"
+msgstr ""
+
+#: ../DefaultNames.cpp:238 ../DefaultNames.cpp:535
+msgid "Assault Rifle"
+msgstr ""
+
+#: ../DefaultNames.cpp:239
+msgid "Assault Rifle Clip"
+msgstr ""
+
+#: ../DefaultNames.cpp:240
+msgid "Grenade Clip"
+msgstr ""
+
+#: ../DefaultNames.cpp:241 ../DefaultNames.cpp:536
+msgid "Missile Launcher"
+msgstr ""
+
+#: ../DefaultNames.cpp:242
+msgid "Missile Launcher Clip"
+msgstr ""
+
+#: ../DefaultNames.cpp:243
+msgid "Invisibility Powerup"
+msgstr ""
+
+#: ../DefaultNames.cpp:244
+msgid "Invincibility Powerup"
+msgstr ""
+
+#: ../DefaultNames.cpp:245
+msgid "Infravision Powerup"
+msgstr ""
+
+#: ../DefaultNames.cpp:246 ../DefaultNames.cpp:538
+msgid "Alien Weapon"
+msgstr ""
+
+#: ../DefaultNames.cpp:247
+msgid "Alien Weapon Magazine"
+msgstr ""
+
+#: ../DefaultNames.cpp:248 ../DefaultNames.cpp:320 ../DefaultNames.cpp:497
+#: ../DefaultNames.cpp:537
+msgid "Flamethrower"
+msgstr ""
+
+#: ../DefaultNames.cpp:249
+msgid "Flamethrower Canister"
+msgstr ""
+
+#: ../DefaultNames.cpp:250
+msgid "Extravision Powerup"
+msgstr ""
+
+#: ../DefaultNames.cpp:251
+msgid "Oxygen Powerup"
+msgstr ""
+
+#: ../DefaultNames.cpp:252
+msgid "Energy Powerup"
+msgstr ""
+
+#: ../DefaultNames.cpp:253
+msgid "Double Energy Powerup"
+msgstr ""
+
+#: ../DefaultNames.cpp:254
+msgid "Triple Energy Powerup"
+msgstr ""
+
+#: ../DefaultNames.cpp:256
+msgid "Shotgun Magazine"
+msgstr ""
+
+#: ../DefaultNames.cpp:257
+msgid "S'pht Door Key"
+msgstr ""
+
+#: ../DefaultNames.cpp:258
+msgid "Uplink Chip"
+msgstr ""
+
+#: ../DefaultNames.cpp:259
+msgid "Light Blue Ball"
+msgstr ""
+
+#: ../DefaultNames.cpp:260 ../DefaultNames.cpp:540
+msgid "The Ball"
+msgstr ""
+
+#: ../DefaultNames.cpp:261
+msgid "Violet Ball"
+msgstr ""
+
+#: ../DefaultNames.cpp:262
+msgid "Yellow Ball"
+msgstr ""
+
+#: ../DefaultNames.cpp:263
+msgid "Brown Ball"
+msgstr ""
+
+#: ../DefaultNames.cpp:264
+msgid "Orange Ball"
+msgstr ""
+
+#: ../DefaultNames.cpp:265
+msgid "Blue Ball"
+msgstr ""
+
+#: ../DefaultNames.cpp:266
+msgid "Green Ball"
+msgstr ""
+
+#: ../DefaultNames.cpp:267 ../DefaultNames.cpp:541
+msgid "SMG"
+msgstr ""
+
+#: ../DefaultNames.cpp:268
+msgid "SMG Ammo"
+msgstr ""
+
+#: ../DefaultNames.cpp:272
+msgid "Startup"
+msgstr ""
+
+#: ../DefaultNames.cpp:275
+msgid "Crunch"
+msgstr ""
+
+#: ../DefaultNames.cpp:276
+msgid "Creak (Inf only)"
+msgstr ""
+
+#: ../DefaultNames.cpp:278
+msgid "Unused 1"
+msgstr ""
+
+#: ../DefaultNames.cpp:279
+msgid "Oxygen Warning"
+msgstr ""
+
+#: ../DefaultNames.cpp:281
+msgid "Energy Refuel"
+msgstr ""
+
+#: ../DefaultNames.cpp:282
+msgid "Oxygen Refuel"
+msgstr ""
+
+#: ../DefaultNames.cpp:283
+msgid "Can't Toggle Switch"
+msgstr ""
+
+#: ../DefaultNames.cpp:284
+msgid "Switch On"
+msgstr ""
+
+#: ../DefaultNames.cpp:285
+msgid "Switch Off"
+msgstr ""
+
+#: ../DefaultNames.cpp:286
+msgid "Puzzle Switch"
+msgstr ""
+
+#: ../DefaultNames.cpp:287
+msgid "Chip Insertion"
+msgstr ""
+
+#: ../DefaultNames.cpp:288
+msgid "Pattern Buffer"
+msgstr ""
+
+#: ../DefaultNames.cpp:289
+msgid "Destroy Control Panel"
+msgstr ""
+
+#: ../DefaultNames.cpp:290
+msgid "Adjust Volume"
+msgstr ""
+
+#: ../DefaultNames.cpp:291
+msgid "Got Powerup"
+msgstr ""
+
+#: ../DefaultNames.cpp:292
+msgid "Got Item"
+msgstr ""
+
+#: ../DefaultNames.cpp:294
+msgid "Metallic Ricochet"
+msgstr ""
+
+#: ../DefaultNames.cpp:295
+msgid "Empty Gun"
+msgstr ""
+
+#: ../DefaultNames.cpp:296
+msgid "S'pht Door Opening"
+msgstr ""
+
+#: ../DefaultNames.cpp:297
+msgid "S'pht Door Closing"
+msgstr ""
+
+#: ../DefaultNames.cpp:298
+msgid "S'pht Door Obstructed"
+msgstr ""
+
+#: ../DefaultNames.cpp:299
+msgid "S'pht Platform Starting"
+msgstr ""
+
+#: ../DefaultNames.cpp:300
+msgid "S'pht Platform Stopping"
+msgstr ""
+
+#: ../DefaultNames.cpp:301
+msgid "Loon"
+msgstr ""
+
+#: ../DefaultNames.cpp:302
+msgid "SMG firing (Inf only)"
+msgstr ""
+
+#: ../DefaultNames.cpp:303
+msgid "SMG reloading (Inf only)"
+msgstr ""
+
+#: ../DefaultNames.cpp:304
+msgid "Heavy S'pht Platform Starting"
+msgstr ""
+
+#: ../DefaultNames.cpp:305
+msgid "Heavy S'pht Platform Stopping"
+msgstr ""
+
+#: ../DefaultNames.cpp:306
+msgid "Fist Hitting"
+msgstr ""
+
+#: ../DefaultNames.cpp:307
+msgid "Magnum Firing"
+msgstr ""
+
+#: ../DefaultNames.cpp:308
+msgid "Magnum Reloading"
+msgstr ""
+
+#: ../DefaultNames.cpp:309
+msgid "Assault Rifle Firing"
+msgstr ""
+
+#: ../DefaultNames.cpp:310
+msgid "Grenade Launcher Firing"
+msgstr ""
+
+#: ../DefaultNames.cpp:311
+msgid "Grenade Exploding"
+msgstr ""
+
+#: ../DefaultNames.cpp:312
+msgid "Grenade Flyby"
+msgstr ""
+
+#: ../DefaultNames.cpp:313
+msgid "Fusion Firing"
+msgstr ""
+
+#: ../DefaultNames.cpp:314
+msgid "Fusion Exploding"
+msgstr ""
+
+#: ../DefaultNames.cpp:315
+msgid "Fusion Flyby"
+msgstr ""
+
+#: ../DefaultNames.cpp:316
+msgid "Fusion Charging"
+msgstr ""
+
+#: ../DefaultNames.cpp:317
+msgid "Rocket Expoding"
+msgstr ""
+
+#: ../DefaultNames.cpp:318
+msgid "Rocket Flyby"
+msgstr ""
+
+#: ../DefaultNames.cpp:319
+msgid "Rocket Firing"
+msgstr ""
+
+#: ../DefaultNames.cpp:321
+msgid "Body Falling"
+msgstr ""
+
+#: ../DefaultNames.cpp:322
+msgid "Body Exploding"
+msgstr ""
+
+#: ../DefaultNames.cpp:323
+msgid "Bullet Hitting Flesh"
+msgstr ""
+
+#: ../DefaultNames.cpp:324
+msgid "Fighter Activate"
+msgstr ""
+
+#: ../DefaultNames.cpp:325
+msgid "Fighter Wail"
+msgstr ""
+
+#: ../DefaultNames.cpp:326
+msgid "Fighter Scream"
+msgstr ""
+
+#: ../DefaultNames.cpp:327
+msgid "Fighter Chatter"
+msgstr ""
+
+#: ../DefaultNames.cpp:328
+msgid "Fighter Attack"
+msgstr ""
+
+#: ../DefaultNames.cpp:329
+msgid "Fighter Projectile Hit"
+msgstr ""
+
+#: ../DefaultNames.cpp:330
+msgid "Fighter Projectile Flyby"
+msgstr ""
+
+#: ../DefaultNames.cpp:331
+msgid "S'pht Attack"
+msgstr ""
+
+#: ../DefaultNames.cpp:332
+msgid "S'pht Death"
+msgstr ""
+
+#: ../DefaultNames.cpp:333
+msgid "S'pht Hit"
+msgstr ""
+
+#: ../DefaultNames.cpp:334
+msgid "S'pht Projectile Flyby"
+msgstr ""
+
+#: ../DefaultNames.cpp:335
+msgid "S'pht Projectile Hit"
+msgstr ""
+
+#: ../DefaultNames.cpp:336
+msgid "Cyborg Moving"
+msgstr ""
+
+#: ../DefaultNames.cpp:337
+msgid "Cyborg Attack"
+msgstr ""
+
+#: ../DefaultNames.cpp:339
+msgid "Cyborg Death"
+msgstr ""
+
+#: ../DefaultNames.cpp:340
+msgid "Cyborg Projectile Bounce"
+msgstr ""
+
+#: ../DefaultNames.cpp:341
+msgid "Cyborg Projectile Hit"
+msgstr ""
+
+#: ../DefaultNames.cpp:342
+msgid "Unused 2"
+msgstr ""
+
+#: ../DefaultNames.cpp:343
+msgid "Drone Activate"
+msgstr ""
+
+#: ../DefaultNames.cpp:344
+msgid "Drone Start Attack"
+msgstr ""
+
+#: ../DefaultNames.cpp:345
+msgid "Drone Attack"
+msgstr ""
+
+#: ../DefaultNames.cpp:346
+msgid "Drone Dying"
+msgstr ""
+
+#: ../DefaultNames.cpp:347
+msgid "Drone Death"
+msgstr ""
+
+#: ../DefaultNames.cpp:348
+msgid "Drone Projectile Hit"
+msgstr ""
+
+#: ../DefaultNames.cpp:349
+msgid "Drone Projectile Flyby"
+msgstr ""
+
+#: ../DefaultNames.cpp:350
+msgid "Human Wail"
+msgstr ""
+
+#: ../DefaultNames.cpp:351
+msgid "Human Scream"
+msgstr ""
+
+#: ../DefaultNames.cpp:352
+msgid "Human Hit"
+msgstr ""
+
+#: ../DefaultNames.cpp:353
+msgid "Human Chatter"
+msgstr ""
+
+#: ../DefaultNames.cpp:354
+msgid "Assimilated Human Chatter"
+msgstr ""
+
+#: ../DefaultNames.cpp:355
+msgid "Human Trash Talk"
+msgstr ""
+
+#: ../DefaultNames.cpp:356
+msgid "Human Apology"
+msgstr ""
+
+#: ../DefaultNames.cpp:357
+msgid "Human Activation"
+msgstr ""
+
+#: ../DefaultNames.cpp:358
+msgid "Human Clear"
+msgstr ""
+
+#: ../DefaultNames.cpp:359
+msgid "Human Stop Shooting Me You Bastard"
+msgstr ""
+
+#: ../DefaultNames.cpp:360
+msgid "Human Area Secure"
+msgstr ""
+
+#: ../DefaultNames.cpp:361
+msgid "Kill The Player!"
+msgstr ""
+
+#: ../DefaultNames.cpp:362
+msgid "Water"
+msgstr ""
+
+#: ../DefaultNames.cpp:363
+msgid "Sewage"
+msgstr ""
+
+#: ../DefaultNames.cpp:366
+msgid "Under Stuff"
+msgstr ""
+
+#: ../DefaultNames.cpp:367
+msgid "Wind"
+msgstr ""
+
+#: ../DefaultNames.cpp:368
+msgid "Waterfall"
+msgstr ""
+
+#: ../DefaultNames.cpp:369
+msgid "Siren"
+msgstr ""
+
+#: ../DefaultNames.cpp:370
+msgid "Fan"
+msgstr ""
+
+#: ../DefaultNames.cpp:371
+msgid "S'pht Door"
+msgstr ""
+
+#: ../DefaultNames.cpp:372
+msgid "S'pht Platform"
+msgstr ""
+
+#: ../DefaultNames.cpp:373
+msgid "Alien Harmonics (Inf only)"
+msgstr ""
+
+#: ../DefaultNames.cpp:374
+msgid "Heavy S'pht Platform"
+msgstr ""
+
+#: ../DefaultNames.cpp:375
+msgid "Light Machinery"
+msgstr ""
+
+#: ../DefaultNames.cpp:376
+msgid "Heavy Machinery"
+msgstr ""
+
+#: ../DefaultNames.cpp:377
+msgid "Transformer"
+msgstr ""
+
+#: ../DefaultNames.cpp:378
+msgid "Sparking Transformer"
+msgstr ""
+
+#: ../DefaultNames.cpp:379
+msgid "Water Drip"
+msgstr ""
+
+#: ../DefaultNames.cpp:380
+msgid "Walking in Water"
+msgstr ""
+
+#: ../DefaultNames.cpp:381
+msgid "Exit Water"
+msgstr ""
+
+#: ../DefaultNames.cpp:382
+msgid "Enter Water"
+msgstr ""
+
+#: ../DefaultNames.cpp:384
+msgid "Medium Water Splash (unused)"
+msgstr ""
+
+#: ../DefaultNames.cpp:386
+msgid "Walking in Lava (unused)"
+msgstr ""
+
+#: ../DefaultNames.cpp:387
+msgid "Exit Lava"
+msgstr ""
+
+#: ../DefaultNames.cpp:388
+msgid "Enter Lava"
+msgstr ""
+
+#: ../DefaultNames.cpp:390
+msgid "Medium Lava Splash (unused)"
+msgstr ""
+
+#: ../DefaultNames.cpp:392
+msgid "Walking in Sewage (unused)"
+msgstr ""
+
+#: ../DefaultNames.cpp:393
+msgid "Exit Sewage"
+msgstr ""
+
+#: ../DefaultNames.cpp:394
+msgid "Enter Sewage"
+msgstr ""
+
+#: ../DefaultNames.cpp:396
+msgid "Medium Sewage Splash (unused)"
+msgstr ""
+
+#: ../DefaultNames.cpp:398
+msgid "Walking in Goo (unused)"
+msgstr ""
+
+#: ../DefaultNames.cpp:399
+msgid "Exit Goo (unused)"
+msgstr ""
+
+#: ../DefaultNames.cpp:400
+msgid "Enter Goo (unused)"
+msgstr ""
+
+#: ../DefaultNames.cpp:401
+msgid "Small Goo Splash (unused)"
+msgstr ""
+
+#: ../DefaultNames.cpp:402
+msgid "Medium Goo Splash (unused)"
+msgstr ""
+
+#: ../DefaultNames.cpp:403
+msgid "Large Goo Splash (unused)"
+msgstr ""
+
+#: ../DefaultNames.cpp:404
+msgid "Major Fusion Firing"
+msgstr ""
+
+#: ../DefaultNames.cpp:405
+msgid "Major Fusion Charged"
+msgstr ""
+
+#: ../DefaultNames.cpp:406
+msgid "Assault Rifle Reloading"
+msgstr ""
+
+#: ../DefaultNames.cpp:407
+msgid "Assault Rifle Shell Casings"
+msgstr ""
+
+#: ../DefaultNames.cpp:408
+msgid "Shotgun Firing"
+msgstr ""
+
+#: ../DefaultNames.cpp:409
+msgid "Shotgun Reloading"
+msgstr ""
+
+#: ../DefaultNames.cpp:410
+msgid "Ball Bounce"
+msgstr ""
+
+#: ../DefaultNames.cpp:411
+msgid "You Are It"
+msgstr ""
+
+#: ../DefaultNames.cpp:412
+msgid "Got The Ball"
+msgstr ""
+
+#: ../DefaultNames.cpp:413
+msgid "Computer Login"
+msgstr ""
+
+#: ../DefaultNames.cpp:414
+msgid "Computer Logout"
+msgstr ""
+
+#: ../DefaultNames.cpp:415
+msgid "Computer Page"
+msgstr ""
+
+#: ../DefaultNames.cpp:416
+msgid "Heavy S'pht Door"
+msgstr ""
+
+#: ../DefaultNames.cpp:417
+msgid "Heavy S'pht Door Opening"
+msgstr ""
+
+#: ../DefaultNames.cpp:418
+msgid "Heavy S'pht Door Closing"
+msgstr ""
+
+#: ../DefaultNames.cpp:419
+msgid "Heavy S'pht Door Open"
+msgstr ""
+
+#: ../DefaultNames.cpp:420
+msgid "Heavy S'pht Door Closed"
+msgstr ""
+
+#: ../DefaultNames.cpp:421
+msgid "Heavy S'pht Door Obstructed"
+msgstr ""
+
+#: ../DefaultNames.cpp:422
+msgid "Hunter Activate (unused)"
+msgstr ""
+
+#: ../DefaultNames.cpp:423
+msgid "Hunter Attack"
+msgstr ""
+
+#: ../DefaultNames.cpp:424
+msgid "Hunter Dying (unused)"
+msgstr ""
+
+#: ../DefaultNames.cpp:425
+msgid "Hunter Landing"
+msgstr ""
+
+#: ../DefaultNames.cpp:426
+msgid "Hunter Exploding"
+msgstr ""
+
+#: ../DefaultNames.cpp:427
+msgid "Hunter Projectile Hit"
+msgstr ""
+
+#: ../DefaultNames.cpp:428
+msgid "Hunter Projectile Flyby"
+msgstr ""
+
+#: ../DefaultNames.cpp:429
+msgid "Enforcer Activate"
+msgstr ""
+
+#: ../DefaultNames.cpp:430
+msgid "Enforcer Attack"
+msgstr ""
+
+#: ../DefaultNames.cpp:431
+msgid "Enforcer Projectile Hit"
+msgstr ""
+
+#: ../DefaultNames.cpp:432
+msgid "Enforcer Projctile Flyby"
+msgstr ""
+
+#: ../DefaultNames.cpp:433
+msgid "F'lickta Melee Attack"
+msgstr ""
+
+#: ../DefaultNames.cpp:434
+msgid "F'lickta Melee Attack Hit"
+msgstr ""
+
+#: ../DefaultNames.cpp:435
+msgid "F'lickta Projectile Attack"
+msgstr ""
+
+#: ../DefaultNames.cpp:436
+msgid "F'lickta Sewage Attack Hit"
+msgstr ""
+
+#: ../DefaultNames.cpp:437
+msgid "F'lickta Sewage Flyby"
+msgstr ""
+
+#: ../DefaultNames.cpp:438
+msgid "F'lickta Lava Attack Hit"
+msgstr ""
+
+#: ../DefaultNames.cpp:439
+msgid "F'lickta Lava Flyby"
+msgstr ""
+
+#: ../DefaultNames.cpp:440
+msgid "F'lickta Dying"
+msgstr ""
+
+#: ../DefaultNames.cpp:441
+msgid "Machine Binder"
+msgstr ""
+
+#: ../DefaultNames.cpp:442
+msgid "Machine Bookpress"
+msgstr ""
+
+#: ../DefaultNames.cpp:443
+msgid "Machine Puncher"
+msgstr ""
+
+#: ../DefaultNames.cpp:444
+msgid "Electric"
+msgstr ""
+
+#: ../DefaultNames.cpp:445
+msgid "Alarm"
+msgstr ""
+
+#: ../DefaultNames.cpp:446
+msgid "Night Wind"
+msgstr ""
+
+#: ../DefaultNames.cpp:447
+msgid "Surface Explosion"
+msgstr ""
+
+#: ../DefaultNames.cpp:448
+msgid "Underground Explosion"
+msgstr ""
+
+#: ../DefaultNames.cpp:449
+msgid "S'pht'Kr Attack"
+msgstr ""
+
+#: ../DefaultNames.cpp:451
+msgid "S'pht'Kr Flyby"
+msgstr ""
+
+#: ../DefaultNames.cpp:452
+msgid "S'pht'Kr Being Hit"
+msgstr ""
+
+#: ../DefaultNames.cpp:453
+msgid "S'pht'Kr Exploding"
+msgstr ""
+
+#: ../DefaultNames.cpp:454
+msgid "Tick Chatter"
+msgstr ""
+
+#: ../DefaultNames.cpp:455
+msgid "Tick Falling"
+msgstr ""
+
+#: ../DefaultNames.cpp:456
+msgid "Tick Flapping"
+msgstr ""
+
+#: ../DefaultNames.cpp:457
+msgid "Tick Exploding"
+msgstr ""
+
+#: ../DefaultNames.cpp:458
+msgid "Lamp Exploding"
+msgstr ""
+
+#: ../DefaultNames.cpp:459
+msgid "Pfhor Platform Start"
+msgstr ""
+
+#: ../DefaultNames.cpp:460
+msgid "Pfhor Platform Stop"
+msgstr ""
+
+#: ../DefaultNames.cpp:461
+msgid "Pfhor Platform"
+msgstr ""
+
+#: ../DefaultNames.cpp:462
+msgid "Pfhor Door Opening"
+msgstr ""
+
+#: ../DefaultNames.cpp:463
+msgid "Pfhor Door Closing"
+msgstr ""
+
+#: ../DefaultNames.cpp:464
+msgid "Pfhor Door Obstructed"
+msgstr ""
+
+#: ../DefaultNames.cpp:465
+msgid "Pfhor Door"
+msgstr ""
+
+#: ../DefaultNames.cpp:466
+msgid "Pfhor Switch Off"
+msgstr ""
+
+#: ../DefaultNames.cpp:467
+msgid "Pfhor Switch On"
+msgstr ""
+
+#: ../DefaultNames.cpp:468
+msgid "Juggernaut Firing"
+msgstr ""
+
+#: ../DefaultNames.cpp:469
+msgid "Juggernaut Warning"
+msgstr ""
+
+#: ../DefaultNames.cpp:470
+msgid "Juggernaut Exploding"
+msgstr ""
+
+#: ../DefaultNames.cpp:471
+msgid "Juggernaut Preparing to Fire"
+msgstr ""
+
+#: ../DefaultNames.cpp:472
+msgid "Enforcer Exploding"
+msgstr ""
+
+#: ../DefaultNames.cpp:473
+msgid "Alien Noise 1"
+msgstr ""
+
+#: ../DefaultNames.cpp:474
+msgid "Alien Noise 2"
+msgstr ""
+
+#: ../DefaultNames.cpp:475
+msgid "VacBob Wail"
+msgstr ""
+
+#: ../DefaultNames.cpp:476
+msgid "VacBob Scream"
+msgstr ""
+
+#: ../DefaultNames.cpp:478
+msgid "VacBob Chatter"
+msgstr ""
+
+#: ../DefaultNames.cpp:479
+msgid "Assimilated VacBob Chatter"
+msgstr ""
+
+#: ../DefaultNames.cpp:480
+msgid "VacBob Trash Talk"
+msgstr ""
+
+#: ../DefaultNames.cpp:481
+msgid "VacBob Apology"
+msgstr ""
+
+#: ../DefaultNames.cpp:482
+msgid "VacBob Activation"
+msgstr ""
+
+#: ../DefaultNames.cpp:483
+msgid "VacBob Clear"
+msgstr ""
+
+#: ../DefaultNames.cpp:484
+msgid "VacBob Stop Shooting Me You Bastard"
+msgstr ""
+
+#: ../DefaultNames.cpp:485
+msgid "VacBob Area Secure"
+msgstr ""
+
+#: ../DefaultNames.cpp:486
+msgid "VacBob Kill The Player"
+msgstr ""
+
+#: ../DefaultNames.cpp:490
+msgid "Missile"
+msgstr ""
+
+#: ../DefaultNames.cpp:491
+msgid "Grenade"
+msgstr ""
+
+#: ../DefaultNames.cpp:492
+msgid "Pistol Bullet"
+msgstr ""
+
+#: ../DefaultNames.cpp:493
+msgid "Assault Rifle Bullet"
+msgstr ""
+
+#: ../DefaultNames.cpp:494
+msgid "Shotgun Shot"
+msgstr ""
+
+#: ../DefaultNames.cpp:495
+msgid "Pfhor Staff"
+msgstr ""
+
+#: ../DefaultNames.cpp:496
+msgid "Pfhor Projectile"
+msgstr ""
+
+#: ../DefaultNames.cpp:498
+msgid "S'pht Bolt"
+msgstr ""
+
+#: ../DefaultNames.cpp:499
+msgid "Seeking S'pht Bolt"
+msgstr ""
+
+#: ../DefaultNames.cpp:500
+msgid "Alien Weapon Blast"
+msgstr ""
+
+#: ../DefaultNames.cpp:502
+msgid "Fusion Overload Bolt"
+msgstr ""
+
+#: ../DefaultNames.cpp:504
+msgid "Fist Punch"
+msgstr ""
+
+#: ../DefaultNames.cpp:505
+msgid "unused 1"
+msgstr ""
+
+#: ../DefaultNames.cpp:506
+msgid "unused 2"
+msgstr ""
+
+#: ../DefaultNames.cpp:507
+msgid "Missile 2"
+msgstr ""
+
+#: ../DefaultNames.cpp:508
+msgid "Trooper Machine Gun"
+msgstr ""
+
+#: ../DefaultNames.cpp:509
+msgid "Trooper Grenade"
+msgstr ""
+
+#: ../DefaultNames.cpp:511
+msgid "Major S'pht'Kr Bolt"
+msgstr ""
+
+#: ../DefaultNames.cpp:512
+msgid "Juggernaut Missile"
+msgstr ""
+
+#: ../DefaultNames.cpp:514
+msgid "Major Energy Drain"
+msgstr ""
+
+#: ../DefaultNames.cpp:517
+msgid "Fast Drone Bolt"
+msgstr ""
+
+#: ../DefaultNames.cpp:518
+msgid "Possessed Drone Bolt"
+msgstr ""
+
+#: ../DefaultNames.cpp:519
+msgid "Bouncing Grenade"
+msgstr ""
+
+#: ../DefaultNames.cpp:520
+msgid "Seeking Grenade"
+msgstr ""
+
+#: ../DefaultNames.cpp:521
+msgid "Ball"
+msgstr ""
+
+#: ../DefaultNames.cpp:522
+msgid "Fusion Media Backblast"
+msgstr ""
+
+#: ../DefaultNames.cpp:523
+msgid "Fusion Overload Media Backblast"
+msgstr ""
+
+#: ../DefaultNames.cpp:524
+msgid "Fusion Overload Self-Destruct"
+msgstr ""
+
+#: ../DefaultNames.cpp:525
+msgid "Flick'ta Claw"
+msgstr ""
+
+#: ../DefaultNames.cpp:526
+msgid "Flick'ta Glob"
+msgstr ""
+
+#: ../DefaultNames.cpp:527
+msgid "Flick'ta Lava Glob"
+msgstr ""
+
+#: ../DefaultNames.cpp:528
+msgid "SMG Bullet"
+msgstr ""
+
+#: ../DefaultNames.cpp:533
+msgid "Pistol"
+msgstr ""
+
+#: ../DefaultNames.cpp:628
+msgid "None"
+msgstr "なし"
+
+#: ../ShapeFusionApp.cpp:77 ../ShapeFusionApp.cpp:79
+msgid "ShapeFusion Workspace"
+msgstr "ShapeFusion ワークスペース"
+
+#: ../ShapeFusionDocManager.cpp:45 ../ShapeFusionDocManager.cpp:68
+msgid "Sounds"
+msgstr "サウンド"
+
+#: ../ShapeFusionDocManager.cpp:99
+msgid "Shapes"
+msgstr "形態"
+
+#: ../ShapeFusionDocManager.cpp:121
+msgid "Physics"
+msgstr "物理"
+
+#: ../ShapeFusionDocManager.cpp:131
+msgid "Select a file"
+msgstr "ファイルを選択"
+
+#: ../ShapeFusionDocManager.cpp:143
+msgid "File error"
+msgstr "ファイルエラー"
+
+#: ../ShapeFusionDocManager.cpp:146
+msgid "Sorry, could not open this file."
+msgstr "このファイルを開くことができませんでした。"
+
+#: ../ShapeFusionDocManager.cpp:159
+msgid "Sorry, the format for this file is unknown."
+msgstr "このファイルを開くことができませんでした。"
+
+#: ../ShapeFusionDocManager.cpp:159
+msgid "Open File"
+msgstr "ファイルを開く"
+
+#: ../ShapeFusionMain.cpp:47 ../ShapeFusionMenus.cpp:97
+msgid "About ShapeFusion"
+msgstr "ShapeFusionについて"
+
+#: ../ShapeFusionMenus.cpp:47
+msgid "Open...\tCtrl+O"
+msgstr "開く…\tCtrl+O"
+
+#: ../ShapeFusionMenus.cpp:48
+msgid "Open Recent..."
+msgstr "最近開いたファイル..."
+
+#: ../ShapeFusionMenus.cpp:49
+msgid "&Close\tCtrl+W"
+msgstr "閉じる(&W)\tCtrl+W"
+
+#: ../ShapeFusionMenus.cpp:51
+msgid "&Save\tCtrl+S"
+msgstr "保存(&S)\tCtrl+S"
+
+#: ../ShapeFusionMenus.cpp:52
+msgid "Save as...\tCtrl+Shift+S"
+msgstr "別名で保存…\tCtrl+Shift+S"
+
+#: ../ShapeFusionMenus.cpp:53
+msgid "&Revert"
+msgstr "復元(&R)"
+
+#: ../ShapeFusionMenus.cpp:55
+msgid "&Print..."
+msgstr "印刷…(&P)"
+
+#: ../ShapeFusionMenus.cpp:56
+msgid "Print &Setup..."
+msgstr ""
+
+#: ../ShapeFusionMenus.cpp:57
+msgid "Print Pre&view"
+msgstr ""
+
+#: ../ShapeFusionMenus.cpp:59
+msgid "&Quit\tAlt+F4"
+msgstr "終了(&Q)\tAlt+4"
+
+#: ../ShapeFusionMenus.cpp:74
+msgid "&Undo\tCtrl+Z"
+msgstr "取り消し(&U)\tCtrl+Z"
+
+#: ../ShapeFusionMenus.cpp:75
+msgid "&Redo\tCtrl+Shift+Z"
+msgstr ""
+
+#: ../ShapeFusionMenus.cpp:77
+msgid "&Cut\tCtrl+X"
+msgstr ""
+
+#: ../ShapeFusionMenus.cpp:78
+msgid "&Copy\tCtrl+C"
+msgstr ""
+
+#: ../ShapeFusionMenus.cpp:79
+msgid "&Paste\tCtrl+V"
+msgstr ""
+
+#: ../ShapeFusionMenus.cpp:81
+msgid "&Delete"
+msgstr "削除(&D)"
+
+#: ../ShapeFusionMenus.cpp:89
+msgid "&Edit"
+msgstr "編集(&E)"
+
+#: ../ShapeFusionMenus.cpp:98
+msgid "ShapeFusion Help"
+msgstr "ShapeFusionヘルプ"
+
+#: ../ShapeFusionMenus.cpp:100
+msgid "&Help"
+msgstr "ヘルプ(&H)"
+
+#: ../ShapeFusionMenus.cpp:118
+msgid "Small"
+msgstr ""
+
+#: ../ShapeFusionMenus.cpp:119 ../Sounds/SoundsView.cpp:86
+msgid "Medium"
+msgstr ""
+
+#: ../ShapeFusionMenus.cpp:120
+msgid "Large"
+msgstr ""
+
+#: ../ShapeFusionMenus.cpp:121
+msgid "Best fit"
+msgstr ""
+
+#: ../ShapeFusionMenus.cpp:127
+msgid "Use color table"
+msgstr ""
+
+#: ../ShapeFusionMenus.cpp:128
+msgid "Thumbnail size"
+msgstr ""
+
+#: ../ShapeFusionMenus.cpp:129
+msgid "Show transparent pixels"
+msgstr ""
+
+#: ../ShapeFusionMenus.cpp:130
+msgid "Fix frame origins"
+msgstr ""
+
+#: ../ShapeFusionMenus.cpp:133
+msgid "&View"
+msgstr "表示(&V)"
+
+#: ../ShapeFusionMenus.cpp:142
+msgid "New color table..."
+msgstr "新規カラーテーブル…"
+
+#: ../ShapeFusionMenus.cpp:143
+msgid "Export color table to GIMP..."
+msgstr "GIMP用のカラーテーブルとしてエクスポート…"
+
+#: ../ShapeFusionMenus.cpp:144
+msgid "Export color table to PhotoShop..."
+msgstr "PhotoShop用カラーテーブルとしてエクスポート…"
+
+#: ../ShapeFusionMenus.cpp:146
+msgid "New bitmap..."
+msgstr "ビットマップを作成…"
+
+#: ../ShapeFusionMenus.cpp:147
+msgid "Export bitmap..."
+msgstr "ビットマップをエクスポート…"
+
+#: ../ShapeFusionMenus.cpp:148
+msgid "Export bitmap mask..."
+msgstr "ビットマップマスクをエクスポート…"
+
+#: ../ShapeFusionMenus.cpp:149
+msgid "Export all bitmaps..."
+msgstr "すべてのビットマップをエクスポート…"
+
+#: ../ShapeFusionMenus.cpp:150
+msgid "Export all bitmap masks..."
+msgstr "すべてのビットマップマスクをエクスポート…"
+
+#: ../ShapeFusionMenus.cpp:152
+msgid "New frame"
+msgstr "新規フレーム"
+
+#: ../ShapeFusionMenus.cpp:154
+msgid "New sequence"
+msgstr "新規シーケンス"
+
+#: ../ShapeFusionMenus.cpp:156
+msgid "Apply Shapes Patch..."
+msgstr "形態パッチを適用…"
+
+#: ../ShapeFusionMenus.cpp:157
+msgid "Export Shapes Patch..."
+msgstr "形態パッチをエクスポート…"
+
+#: ../ShapeFusionMenus.cpp:172
+msgid "&Shapes"
+msgstr "形態(&S)"
+
+#: ../ShapeFusionMenus.cpp:181
+msgid "Add new sound class"
+msgstr "サウンドクラスを追加"
+
+#: ../ShapeFusionMenus.cpp:183
+msgid "Export selected sound"
+msgstr "選択されたサウンドをエクスポート"
+
+#: ../ShapeFusionMenus.cpp:184
+msgid "Import sound"
+msgstr "サウンドをインポート"
+
+#: ../ShapeFusionMenus.cpp:192
+msgid "S&ounds"
+msgstr "サウンド(&S)"
+
+#: ../Shapes/BitmapBrowser.cpp:257
+msgid "[BitmapBrowser] Added a bitmap with NULL pixels"
+msgstr ""
+
+#: ../Shapes/BitmapView.cpp:119
+msgid "[BitmapView] Addes a bitmap with NULL pixels"
+msgstr ""
+
+#: ../Shapes/SequenceView.cpp:571
+msgid "Change frame:"
+msgstr ""
+
+#: ../Shapes/SequenceView.cpp:571
+msgid "Chage frame"
+msgstr "フレームを変更"
+
+#: ../Shapes/ShapesView.cpp:100
+msgid "ShapeFusion : Shapes : "
+msgstr "ShapeFusion：形態： "
+
+#: ../Shapes/ShapesView.cpp:127 ../Shapes/ShapesView.cpp:128
+msgid "Collection info"
+msgstr ""
+
+#: ../Shapes/ShapesView.cpp:138
+msgid "Version info"
+msgstr "バージョン情報"
+
+#: ../Shapes/ShapesView.cpp:141
+msgid "Not defined"
+msgstr "未定義"
+
+#: ../Shapes/ShapesView.cpp:145
+msgid "Version:"
+msgstr ""
+
+#: ../Shapes/ShapesView.cpp:146
+msgid "Collection type:"
+msgstr ""
+
+#: ../Shapes/ShapesView.cpp:147
+msgid "Flags:"
+msgstr "フラグ："
+
+#: ../Shapes/ShapesView.cpp:148
+msgid "Collection scale factor:"
+msgstr ""
+
+#: ../Shapes/ShapesView.cpp:149
+msgid "0"
+msgstr ""
+
+#: ../Shapes/ShapesView.cpp:150
+msgid "Unused"
+msgstr "未使用"
+
+#: ../Shapes/ShapesView.cpp:151
+msgid "Wall textures"
+msgstr ""
+
+#: ../Shapes/ShapesView.cpp:152
+msgid "Objects"
+msgstr ""
+
+#: ../Shapes/ShapesView.cpp:153
+msgid "Interface graphics"
+msgstr ""
+
+#: ../Shapes/ShapesView.cpp:154
+msgid "Scenery objects"
+msgstr ""
+
+#: ../Shapes/ShapesView.cpp:178
+msgid "N color tables"
+msgstr ""
+
+#: ../Shapes/ShapesView.cpp:179
+msgid "Color table N of M"
+msgstr ""
+
+#: ../Shapes/ShapesView.cpp:183
+msgid "Self-luminescent color"
+msgstr ""
+
+#: ../Shapes/ShapesView.cpp:184
+msgid "Make gradient"
+msgstr "グラデーションを作成"
+
+#: ../Shapes/ShapesView.cpp:200
+msgid "N bitmaps"
+msgstr ""
+
+#: ../Shapes/ShapesView.cpp:201
+msgid "Bitmap N of M"
+msgstr ""
+
+#: ../Shapes/ShapesView.cpp:204
+msgid "AxB pixels"
+msgstr ""
+
+#: ../Shapes/ShapesView.cpp:205
+msgid "Store pixels in column order"
+msgstr ""
+
+#: ../Shapes/ShapesView.cpp:206
+msgid "Enable transparency"
+msgstr "透過を有効"
+
+#: ../Shapes/ShapesView.cpp:227
+msgid "N frames"
+msgstr ""
+
+#: ../Shapes/ShapesView.cpp:228
+msgid "Frame N"
+msgstr ""
+
+#: ../Shapes/ShapesView.cpp:230
+msgid "Associated bitmap:"
+msgstr "関連付けられたビットマップ："
+
+#: ../Shapes/ShapesView.cpp:232
+msgid "X mirror"
+msgstr ""
+
+#: ../Shapes/ShapesView.cpp:233
+msgid "Y mirror"
+msgstr ""
+
+#: ../Shapes/ShapesView.cpp:234
+msgid "Keypoint obscured"
+msgstr ""
+
+#: ../Shapes/ShapesView.cpp:235
+msgid "Origin X:"
+msgstr ""
+
+#: ../Shapes/ShapesView.cpp:237
+msgid "Origin Y:"
+msgstr ""
+
+#: ../Shapes/ShapesView.cpp:239
+msgid "Keypoint X:"
+msgstr ""
+
+#: ../Shapes/ShapesView.cpp:241
+msgid "Keypoint Y:"
+msgstr ""
+
+#: ../Shapes/ShapesView.cpp:243
+msgid "Scale factor:"
+msgstr ""
+
+#: ../Shapes/ShapesView.cpp:245
+msgid "Minimum lightness (%):"
+msgstr ""
+
+#: ../Shapes/ShapesView.cpp:279
+msgid "Sequence"
+msgstr "シーケンス"
+
+#: ../Shapes/ShapesView.cpp:284
+msgid "Name:"
+msgstr ""
+
+#: ../Shapes/ShapesView.cpp:285
+msgid "foobar"
+msgstr ""
+
+#: ../Shapes/ShapesView.cpp:286 ../Shapes/ShapesView.cpp:1221
+msgid "Delete sequence"
+msgstr "シーケンスを削除"
+
+#: ../Shapes/ShapesView.cpp:295
+msgid "Sequence type:"
+msgstr ""
+
+#: ../Shapes/ShapesView.cpp:296
+msgid "Display a random frame"
+msgstr "ランダムフレームを表示"
+
+#: ../Shapes/ShapesView.cpp:297
+msgid "Animation with 1 view"
+msgstr ""
+
+#: ../Shapes/ShapesView.cpp:298
+msgid "Animation with 4 views"
+msgstr ""
+
+#: ../Shapes/ShapesView.cpp:299
+msgid "Animation with 5 views"
+msgstr ""
+
+#: ../Shapes/ShapesView.cpp:300
+msgid "Animation with 8 views"
+msgstr ""
+
+#: ../Shapes/ShapesView.cpp:302
+msgid "Frames per view:"
+msgstr ""
+
+#: ../Shapes/ShapesView.cpp:304
+msgid "Ticks per frame:"
+msgstr ""
+
+#: ../Shapes/ShapesView.cpp:306
+msgid "Loop at frame:"
+msgstr ""
+
+#: ../Shapes/ShapesView.cpp:308
+msgid "Key frame:"
+msgstr ""
+
+#: ../Shapes/ShapesView.cpp:326
+msgid "Transfer mode:"
+msgstr ""
+
+#: ../Shapes/ShapesView.cpp:327
+msgid "Normal"
+msgstr "通常"
+
+#: ../Shapes/ShapesView.cpp:328
+msgid "Fade out to black"
+msgstr ""
+
+#: ../Shapes/ShapesView.cpp:329
+#, c-format
+msgid "50% invisibility"
+msgstr ""
+
+#: ../Shapes/ShapesView.cpp:330
+#, c-format
+msgid "75% invisibility"
+msgstr ""
+
+#: ../Shapes/ShapesView.cpp:331
+msgid "Pulsate"
+msgstr ""
+
+#: ../Shapes/ShapesView.cpp:332
+msgid "Wobble"
+msgstr ""
+
+#: ../Shapes/ShapesView.cpp:333
+msgid "Fast wobble"
+msgstr ""
+
+#: ../Shapes/ShapesView.cpp:334
+#, c-format
+msgid "100% static"
+msgstr ""
+
+#: ../Shapes/ShapesView.cpp:335
+#, c-format
+msgid "50% static"
+msgstr ""
+
+#: ../Shapes/ShapesView.cpp:336
+msgid "Landscape"
+msgstr ""
+
+#: ../Shapes/ShapesView.cpp:337
+msgid "Smear"
+msgstr ""
+
+#: ../Shapes/ShapesView.cpp:338
+msgid "Fade out static"
+msgstr ""
+
+#: ../Shapes/ShapesView.cpp:339
+msgid "Pulsating static"
+msgstr ""
+
+#: ../Shapes/ShapesView.cpp:340
+msgid "Fold in"
+msgstr ""
+
+#: ../Shapes/ShapesView.cpp:341
+msgid "Fold out"
+msgstr ""
+
+#: ../Shapes/ShapesView.cpp:342
+msgid "Horizontal slide"
+msgstr ""
+
+#: ../Shapes/ShapesView.cpp:343
+msgid "Fast horizontal slide"
+msgstr ""
+
+#: ../Shapes/ShapesView.cpp:344
+msgid "Vertical slide"
+msgstr ""
+
+#: ../Shapes/ShapesView.cpp:345
+msgid "Fast vertical slide"
+msgstr ""
+
+#: ../Shapes/ShapesView.cpp:346
+msgid "Wander"
+msgstr ""
+
+#: ../Shapes/ShapesView.cpp:347
+msgid "Fast wander"
+msgstr ""
+
+#: ../Shapes/ShapesView.cpp:348
+msgid "Big landscape"
+msgstr ""
+
+#: ../Shapes/ShapesView.cpp:351
+msgid "Transfer mode period:"
+msgstr ""
+
+#: ../Shapes/ShapesView.cpp:353
+msgid "First frame sound:"
+msgstr ""
+
+#: ../Shapes/ShapesView.cpp:355
+msgid "Key frame sound:"
+msgstr ""
+
+#: ../Shapes/ShapesView.cpp:357
+msgid "Last frame sound:"
+msgstr ""
+
+#: ../Shapes/ShapesView.cpp:414
+msgid "8-bit color version"
+msgstr ""
+
+#: ../Shapes/ShapesView.cpp:416
+msgid "True color version"
+msgstr ""
+
+#: ../Shapes/ShapesView.cpp:425
+msgid "Bitmaps"
+msgstr "ビットマップ"
+
+#: ../Shapes/ShapesView.cpp:426
+msgid "Color tables"
+msgstr "カラーテーブル"
+
+#: ../Shapes/ShapesView.cpp:427
+msgid "Frames"
+msgstr "フレーム"
+
+#: ../Shapes/ShapesView.cpp:428
+msgid "Sequences"
+msgstr "シーケンス"
+
+#: ../Shapes/ShapesView.cpp:623
+msgid "Import a color table"
+msgstr "カラーテーブルをインポート"
+
+#: ../Shapes/ShapesView.cpp:624
+msgid "Photoshop color table|*.act|Gimp palette|*.gpl"
+msgstr "Photoshopのカラーテーブル|*.act|Gimpパレット|*.gpl"
+
+#: ../Shapes/ShapesView.cpp:637
+msgid ""
+"The first color of the table being imported is not the usual Marathon chroma "
+"key color (no red, no green, maximum blue). It should be corrected manually "
+"to avoid problems."
+msgstr ""
+
+#: ../Shapes/ShapesView.cpp:639
+msgid "Invalid chroma key color"
+msgstr ""
+
+#: ../Shapes/ShapesView.cpp:676 ../Shapes/ShapesView.cpp:683
+msgid "Sorry, could not load a color table from "
+msgstr ""
+
+#: ../Shapes/ShapesView.cpp:676
+msgid " because the file format is unknown or the file contains no colors."
+msgstr ""
+
+#: ../Shapes/ShapesView.cpp:677 ../Shapes/ShapesView.cpp:684
+msgid "Error loading color table"
+msgstr ""
+
+#: ../Shapes/ShapesView.cpp:683
+msgid " because the file is not readable."
+msgstr ""
+
+#: ../Shapes/ShapesView.cpp:699
+#, c-format
+msgid "Save color table %d"
+msgstr ""
+
+#: ../Shapes/ShapesView.cpp:703
+#, c-format
+msgid "ColorTable%d.act"
+msgstr ""
+
+#: ../Shapes/ShapesView.cpp:705
+msgid "PhotoShop color table|*.act"
+msgstr ""
+
+#: ../Shapes/ShapesView.cpp:708
+#, c-format
+msgid "ColorTable%d.gpl"
+msgstr ""
+
+#: ../Shapes/ShapesView.cpp:710
+msgid "Gimp color table|*.gpl"
+msgstr ""
+
+#: ../Shapes/ShapesView.cpp:726
+msgid "Sorry, could not save color table to "
+msgstr ""
+
+#: ../Shapes/ShapesView.cpp:727
+msgid "Error saving color table"
+msgstr ""
+
+#: ../Shapes/ShapesView.cpp:737
+msgid "Choose a bitmap to add"
+msgstr ""
+
+#: ../Shapes/ShapesView.cpp:738
+msgid ""
+"Common bitmap files (BMP, JPEG, PNG, GIF, TIFF)|*.bmp;*.jpg;*.jpeg;*.tif;*."
+"tiff;*.png;*.gif"
+msgstr ""
+
+#: ../Shapes/ShapesView.cpp:765
+#, c-format
+msgid "%u bitmap"
+msgstr ""
+
+#: ../Shapes/ShapesView.cpp:778
+msgid "Sorry, could not load bitmap from "
+msgstr ""
+
+#: ../Shapes/ShapesView.cpp:779
+msgid "Error adding bitmap"
+msgstr ""
+
+#: ../Shapes/ShapesView.cpp:793
+#, c-format
+msgid "Export bitmap %d"
+msgstr ""
+
+#: ../Shapes/ShapesView.cpp:794 ../Shapes/ShapesView.cpp:837
+#, c-format
+msgid "bitmap%.3d.bmp"
+msgstr ""
+
+#: ../Shapes/ShapesView.cpp:795 ../Shapes/ShapesView.cpp:815
+msgid "BMP image|*.bmp"
+msgstr ""
+
+#: ../Shapes/ShapesView.cpp:813
+#, c-format
+msgid "Export bitmap %d mask"
+msgstr ""
+
+#: ../Shapes/ShapesView.cpp:814 ../Shapes/ShapesView.cpp:855
+#, c-format
+msgid "bitmap%.3dmask.bmp"
+msgstr ""
+
+#: ../Shapes/ShapesView.cpp:830 ../Shapes/ShapesView.cpp:850
+msgid "Select destination folder"
+msgstr ""
+
+#: ../Shapes/ShapesView.cpp:879
+#, c-format
+msgid "%u frame"
+msgstr ""
+
+#: ../Shapes/ShapesView.cpp:920
+msgid "Choose a base file (e.g. standard Infinity shapes)"
+msgstr ""
+
+#: ../Shapes/ShapesView.cpp:920
+msgid "Shapes files (*.shpA)|*.shpA|All files (*.*)|*.*"
+msgstr ""
+
+#: ../Shapes/ShapesView.cpp:931
+msgid "Export patch file"
+msgstr ""
+
+#: ../Shapes/ShapesView.cpp:931
+msgid "Shapes Patch.ShPa"
+msgstr ""
+
+#: ../Shapes/ShapesView.cpp:931
+msgid "Shapes patch|*.ShPa"
+msgstr ""
+
+#: ../Shapes/ShapesView.cpp:957
+msgid "Choose a patch file"
+msgstr ""
+
+#: ../Shapes/ShapesView.cpp:957
+msgid "Patch files (*.ShPa)|*.ShPa|All files (*.*)|*.*"
+msgstr ""
+
+#: ../Shapes/ShapesView.cpp:973
+msgid "Error loading shapes patch; the patch may be partially applied!"
+msgstr ""
+
+#: ../Shapes/ShapesView.cpp:973
+msgid "Error loading shapes patch"
+msgstr ""
+
+#: ../Shapes/ShapesView.cpp:1028
+#, c-format
+msgid "Global info for collection %d"
+msgstr ""
+
+#: ../Shapes/ShapesView.cpp:1031
+msgid "Status: "
+msgstr ""
+
+#: ../Shapes/ShapesView.cpp:1032
+msgid "Flags: "
+msgstr ""
+
+#: ../Shapes/ShapesView.cpp:1034
+msgid "8-bit color version present\n"
+msgstr ""
+
+#: ../Shapes/ShapesView.cpp:1036
+msgid "No 8-bit color version\n"
+msgstr ""
+
+#: ../Shapes/ShapesView.cpp:1038
+msgid "True color version present"
+msgstr ""
+
+#: ../Shapes/ShapesView.cpp:1040
+msgid "No true color version"
+msgstr ""
+
+#: ../Shapes/ShapesView.cpp:1045
+msgid "Shapes for true color and OpenGL display"
+msgstr ""
+
+#: ../Shapes/ShapesView.cpp:1047
+msgid "Shapes for 8-bit color display"
+msgstr ""
+
+#: ../Shapes/ShapesView.cpp:1078
+msgid " color table"
+msgstr " のカラーテーブル"
+
+#: ../Shapes/ShapesView.cpp:1080 ../Shapes/ShapesView.cpp:1093
+#: ../Shapes/ShapesView.cpp:1106 ../Shapes/ShapesView.cpp:1384
+#: ../Shapes/ShapesView.cpp:1416
+msgid "s"
+msgstr " "
+
+#: ../Shapes/ShapesView.cpp:1082
+msgid ", "
+msgstr ""
+
+#: ../Shapes/ShapesView.cpp:1082
+msgid " colors per table"
+msgstr ""
+
+#: ../Shapes/ShapesView.cpp:1091 ../Shapes/ShapesView.cpp:1382
+msgid " bitmap"
+msgstr " のビットマップ"
+
+#: ../Shapes/ShapesView.cpp:1104 ../Shapes/ShapesView.cpp:1414
+msgid " frame"
+msgstr " のフレーム"
+
+#: ../Shapes/ShapesView.cpp:1138
+#, c-format
+msgid "Sequence %d of %u"
+msgstr ""
+
+#: ../Shapes/ShapesView.cpp:1153
+#, c-format
+msgid ""
+"This sequence has an unknown type %d, and ShapeFusion can not handle it. "
+"Something strange may happen now!"
+msgstr ""
+
+#: ../Shapes/ShapesView.cpp:1154 ../Sounds/SoundsView.cpp:233
+msgid "Warning"
+msgstr ""
+
+#: ../Shapes/ShapesView.cpp:1180 ../Shapes/ShapesView.cpp:1667
+msgid "Delete"
+msgstr ""
+
+#: ../Shapes/ShapesView.cpp:1254
+#, c-format
+msgid "%dx%d pixels, "
+msgstr ""
+
+#: ../Shapes/ShapesView.cpp:1257
+msgid "plain encoding"
+msgstr ""
+
+#: ../Shapes/ShapesView.cpp:1261
+#, c-format
+msgid "Bitmap %d of %d"
+msgstr ""
+
+#: ../Shapes/ShapesView.cpp:1270
+msgid "Delete bitmap"
+msgstr ""
+
+#: ../Shapes/ShapesView.cpp:1517
+#, c-format
+msgid "Color table %d of %d, %d colors per table"
+msgstr ""
+
+#: ../Shapes/ShapesView.cpp:1524
+msgid "Delete color table"
+msgstr ""
+
+#: ../Shapes/ShapesView.cpp:1676
+#, c-format
+msgid "Frame %d of %u"
+msgstr ""
+
+#: ../Shapes/ShapesView.cpp:1697
+msgid "Delete frame"
+msgstr "フレームを削除"
+
+#: ../Sounds/SoundsView.cpp:72
+msgid "ShapeFusion : Sounds : "
+msgstr ""
+
+#: ../Sounds/SoundsView.cpp:86
+msgid "Soft"
+msgstr "ソフト"
+
+#: ../Sounds/SoundsView.cpp:86
+msgid "Loud"
+msgstr "ラウド"
+
+#: ../Sounds/SoundsView.cpp:92
+msgid "Sound classes: "
+msgstr ""
+
+#: ../Sounds/SoundsView.cpp:93
+msgid "Class ID: "
+msgstr ""
+
+#: ../Sounds/SoundsView.cpp:96
+msgid "Class number: "
+msgstr ""
+
+#: ../Sounds/SoundsView.cpp:101
+msgid "Cannot be restarted"
+msgstr ""
+
+#: ../Sounds/SoundsView.cpp:102
+msgid "Does not self-abort"
+msgstr ""
+
+#: ../Sounds/SoundsView.cpp:103
+msgid "Resists pitch changes"
+msgstr ""
+
+#: ../Sounds/SoundsView.cpp:104
+msgid "Can't change pitch"
+msgstr "ビッチを変えない"
+
+#: ../Sounds/SoundsView.cpp:105
+msgid "Can't be obstructed"
+msgstr ""
+
+#: ../Sounds/SoundsView.cpp:106
+msgid "Can't be media obstructed"
+msgstr ""
+
+#: ../Sounds/SoundsView.cpp:107
+msgid "Is ambient"
+msgstr "周辺サウンド"
+
+#: ../Sounds/SoundsView.cpp:109
+msgid "Volume"
+msgstr "ボリューム"
+
+#: ../Sounds/SoundsView.cpp:111
+msgid "Chance: "
+msgstr ""
+
+#: ../Sounds/SoundsView.cpp:114
+msgid "Low pitch: "
+msgstr ""
+
+#: ../Sounds/SoundsView.cpp:116
+msgid "High pitch: "
+msgstr ""
+
+#: ../Sounds/SoundsView.cpp:119
+msgid "8-bit sounds:"
+msgstr ""
+
+#: ../Sounds/SoundsView.cpp:122
+msgid "16-bit sounds: "
+msgstr ""
+
+#: ../Sounds/SoundsView.cpp:125
+msgid "Remap 8-bit"
+msgstr ""
+
+#: ../Sounds/SoundsView.cpp:222
+#, c-format
+msgid "Sound source different at %d"
+msgstr ""
+
+#: ../Sounds/SoundsView.cpp:228
+msgid ""
+"It seems 8-bit and 16-bit versions of some of this Sound file sounds have "
+"differences. This editor will replace 16-bit sounds flags with those from 8-"
+"bit sounds, to ensure consistency. If you really need to be able to change "
+"16-bit flags independently, please file a feature request."
+msgstr ""
+
+#: ../Sounds/SoundsView.cpp:505
+msgid ""
+"Sorry, you need to select a sound class and 8-bit or 16-bit to import a sound"
+msgstr ""
+
+#: ../Sounds/SoundsView.cpp:505
+msgid "Error: No selection"
+msgstr ""
+
+#: ../Sounds/SoundsView.cpp:511
+msgid "There are already five permutations for this sound"
+msgstr ""
+
+#: ../Sounds/SoundsView.cpp:511
+msgid "Error: permutation limit reached"
+msgstr ""
+
+#: ../Sounds/SoundsView.cpp:516
+msgid "Choose a sound file to add"
+msgstr ""
+
+#: ../Sounds/SoundsView.cpp:516
+msgid "Common sound files (AIFF, WAV)|*.aif;*.wav"
+msgstr ""
+
+#: ../Sounds/SoundsView.cpp:519
+msgid "Error importing sound"
+msgstr ""
+
+#: ../Sounds/SoundsView.cpp:519
+msgid "Error"
+msgstr "エラー"
+
+#: ../Sounds/SoundsView.cpp:533
+msgid ""
+"Sorry, you need to select a sound class and a permutation to export a sound"
+msgstr ""
+
+#: ../Sounds/SoundsView.cpp:533
+msgid "Error : No selection"
+msgstr ""
+
+#: ../Sounds/SoundsView.cpp:538
+msgid "Choose a file name :"
+msgstr ""
+
+#: ../Sounds/SoundsView.cpp:538
+msgid "WAV files (*.wav)|*.wav|AIFF files (*.aif)|*.aif"
+msgstr ""
