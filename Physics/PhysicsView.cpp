@@ -32,7 +32,6 @@
 
 const wxSize choiceSize(200, -1);
 
-
 void PhysicsView::CreateAliens()
 {
 	aliens_appearance_sizer = new wxBoxSizer(wxHORIZONTAL);
@@ -1378,7 +1377,18 @@ void PhysicsView::CreateWeapons()
 
 bool PhysicsView::OnCreate(wxDocument* doc, long flags)
 {
-	wxString frameTitle = wxT("ShapeFusion : Physics : ");
+	// Make Traslatable
+	wxLocale::AddCatalogLookupPathPrefix("lang");
+
+	wxLocale locale;
+	// Add Japanese support.
+	locale.Init( wxLANGUAGE_JAPANESE, wxLOCALE_DONT_LOAD_DEFAULT );
+	// ShapeFusion Dictionary
+	locale.AddCatalog("messages");
+	// WxWidget Standard Dictionary
+	locale.AddCatalog("wxstd");
+	
+	wxString frameTitle = _("ShapeFusion : Physics : ");
 	frameTitle.Append(doc->GetFilename());
 
 	mFrame = wxGetApp().CreateChildFrame(doc, this, frameTitle, wxDefaultPosition, wxDefaultSize);

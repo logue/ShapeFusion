@@ -7,8 +7,8 @@ msgid ""
 msgstr ""
 "Project-Id-Version: ShapeFusion\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2019-04-11 08:51+0900\n"
-"PO-Revision-Date: 2019-04-11 09:01+0900\n"
+"POT-Creation-Date: 2019-04-11 09:18+0900\n"
+"PO-Revision-Date: 2019-04-11 09:45+0900\n"
 "Last-Translator: \n"
 "Language-Team: logue@hotmail.co.jp\n"
 "Language: ja\n"
@@ -754,7 +754,7 @@ msgstr ""
 msgid "Plasma Battery"
 msgstr ""
 
-#: DefaultNames.cpp:238 DefaultNames.cpp:535
+#: DefaultNames.cpp:238 DefaultNames.cpp:535 Physics/PhysicsView.cpp:1354
 msgid "Assault Rifle"
 msgstr ""
 
@@ -867,7 +867,7 @@ msgstr ""
 msgid "Green Ball"
 msgstr ""
 
-#: DefaultNames.cpp:267 DefaultNames.cpp:541
+#: DefaultNames.cpp:267 DefaultNames.cpp:541 Physics/PhysicsView.cpp:1358
 msgid "SMG"
 msgstr ""
 
@@ -1281,6 +1281,7 @@ msgid "Exit Water"
 msgstr ""
 
 #: DefaultNames.cpp:382
+#| msgid "Interface"
 msgid "Enter Water"
 msgstr ""
 
@@ -1800,7 +1801,11 @@ msgstr ""
 msgid "Pistol"
 msgstr ""
 
-#: DefaultNames.cpp:628
+#: DefaultNames.cpp:628 Physics/PhysicsView.cpp:246 Physics/PhysicsView.cpp:418
+#: Physics/PhysicsView.cpp:885 Physics/PhysicsView.cpp:959
+#: Physics/PhysicsView.cpp:1059 Physics/PhysicsView.cpp:1155
+#: Physics/PhysicsView.cpp:1241 Physics/PhysicsView.cpp:1244
+#: Physics/PhysicsView.cpp:1353
 msgid "None"
 msgstr "なし"
 
@@ -1809,6 +1814,7 @@ msgid "ShapeFusion Workspace"
 msgstr "ShapeFusion ワークスペース"
 
 #: ShapeFusionDocManager.cpp:45 ShapeFusionDocManager.cpp:68
+#: Physics/PhysicsView.cpp:111 Physics/PhysicsView.cpp:1269
 msgid "Sounds"
 msgstr "サウンド"
 
@@ -1816,7 +1822,7 @@ msgstr "サウンド"
 msgid "Shapes"
 msgstr "形態"
 
-#: ShapeFusionDocManager.cpp:121
+#: ShapeFusionDocManager.cpp:121 Physics/PhysicsView.cpp:1482
 msgid "Physics"
 msgstr "物理"
 
@@ -2073,6 +2079,7 @@ msgid "Flags:"
 msgstr "フラグ："
 
 #: Shapes/ShapesView.cpp:159
+#| msgid "Collection info"
 msgid "Collection scale factor:"
 msgstr ""
 
@@ -2151,12 +2158,12 @@ msgstr "関連付けられたビットマップ："
 #: Shapes/ShapesView.cpp:243
 #| msgid "Error"
 msgid "X mirror"
-msgstr ""
+msgstr "X軸ミラー"
 
 #: Shapes/ShapesView.cpp:244
 #| msgid "Error"
 msgid "Y mirror"
-msgstr ""
+msgstr "Y軸ミラー"
 
 #: Shapes/ShapesView.cpp:245
 msgid "Keypoint obscured"
@@ -2236,7 +2243,7 @@ msgstr "Ticあたりのフレーム："
 
 #: Shapes/ShapesView.cpp:317
 msgid "Loop at frame:"
-msgstr "ループ先のフレーム"
+msgstr "ループ先のフレーム："
 
 #: Shapes/ShapesView.cpp:319
 msgid "Key frame:"
@@ -2344,7 +2351,7 @@ msgstr ""
 
 #: Shapes/ShapesView.cpp:364
 msgid "First frame sound:"
-msgstr ""
+msgstr "最初のフレームサウンド："
 
 #: Shapes/ShapesView.cpp:366
 msgid "Key frame sound:"
@@ -2352,15 +2359,15 @@ msgstr "キーフレームサウンド："
 
 #: Shapes/ShapesView.cpp:368
 msgid "Last frame sound:"
-msgstr ""
+msgstr "最後のフレームサウンド："
 
 #: Shapes/ShapesView.cpp:425
 msgid "8-bit color version"
-msgstr ""
+msgstr "8ビットカラー版"
 
 #: Shapes/ShapesView.cpp:427
 msgid "True color version"
-msgstr ""
+msgstr "True color版"
 
 #: Shapes/ShapesView.cpp:436
 msgid "Bitmaps"
@@ -2395,7 +2402,7 @@ msgstr ""
 
 #: Shapes/ShapesView.cpp:650
 msgid "Invalid chroma key color"
-msgstr ""
+msgstr "無効なクローマキーカラー"
 
 #: Shapes/ShapesView.cpp:687 Shapes/ShapesView.cpp:694
 #| msgid "Sorry, could not open this file."
@@ -2409,7 +2416,7 @@ msgstr ""
 #: Shapes/ShapesView.cpp:688 Shapes/ShapesView.cpp:695
 #| msgid "Import a color table"
 msgid "Error loading color table"
-msgstr ""
+msgstr "カラーテーブル読み込み時にエラー"
 
 #: Shapes/ShapesView.cpp:694
 msgid " because the file is not readable."
@@ -2438,9 +2445,8 @@ msgid "ColorTable%d.gpl"
 msgstr ""
 
 #: Shapes/ShapesView.cpp:721
-#| msgid " color table"
 msgid "Gimp color table|*.gpl"
-msgstr ""
+msgstr "GIMP カラーテーブル|*.gpl"
 
 #: Shapes/ShapesView.cpp:737
 #| msgid "Sorry, could not open this file."
@@ -2454,19 +2460,20 @@ msgstr ""
 
 #: Shapes/ShapesView.cpp:748
 msgid "Choose a bitmap to add"
-msgstr ""
+msgstr "追加したいビットマップを選んでください"
 
 #: Shapes/ShapesView.cpp:749
 msgid ""
 "Common bitmap files (BMP, JPEG, PNG, GIF, TIFF)|*.bmp;*.jpg;*.jpeg;*.tif;*."
 "tiff;*.png;*.gif"
 msgstr ""
+"一般的なビットマップファイル (BMP, JPEG, PNG, GIF, TIFF)|*.bmp;*.jpg;*.jpeg;"
+"*.tif;*.tiff;*.png;*.gif"
 
 #: Shapes/ShapesView.cpp:776
 #, c-format
-#| msgid " bitmap"
 msgid "%u bitmap"
-msgstr ""
+msgstr "%uのビットマップ"
 
 #: Shapes/ShapesView.cpp:789
 #| msgid "Sorry, could not open this file."
@@ -2491,7 +2498,7 @@ msgstr ""
 
 #: Shapes/ShapesView.cpp:806 Shapes/ShapesView.cpp:826
 msgid "BMP image|*.bmp"
-msgstr ""
+msgstr "BMP画像|*bmp"
 
 #: Shapes/ShapesView.cpp:824
 #, c-format
@@ -2505,9 +2512,8 @@ msgid "bitmap%.3dmask.bmp"
 msgstr ""
 
 #: Shapes/ShapesView.cpp:841 Shapes/ShapesView.cpp:861
-#| msgid "Select a file"
 msgid "Select destination folder"
-msgstr ""
+msgstr "出力先のフォルダを選択"
 
 #: Shapes/ShapesView.cpp:890
 #, c-format
@@ -2517,7 +2523,7 @@ msgstr ""
 
 #: Shapes/ShapesView.cpp:931
 msgid "Choose a base file (e.g. standard Infinity shapes)"
-msgstr ""
+msgstr "ベースと鳴るファイルを選択（例：標準のInfinityの形態ファイル）"
 
 #: Shapes/ShapesView.cpp:931
 msgid "Shapes files (*.shpA)|*.shpA|All files (*.*)|*.*"
@@ -2528,7 +2534,7 @@ msgid "Export patch file"
 msgstr "形態パッチのエクスポート"
 
 #: Shapes/ShapesView.cpp:942
-#| msgid "Apply Shapes Patch..."
+#| msgid "Shapes patch|*.ShPa"
 msgid "Shapes Patch.ShPa"
 msgstr ""
 
@@ -2559,11 +2565,11 @@ msgstr ""
 
 #: Shapes/ShapesView.cpp:1042
 msgid "Status: "
-msgstr "ステータス："
+msgstr "ステータス： "
 
 #: Shapes/ShapesView.cpp:1043
 msgid "Flags: "
-msgstr "フラグ："
+msgstr "フラグ： "
 
 #: Shapes/ShapesView.cpp:1045
 msgid "8-bit color version present\n"
@@ -2604,9 +2610,8 @@ msgid ", "
 msgstr ""
 
 #: Shapes/ShapesView.cpp:1093
-#| msgid " color table"
 msgid " colors per table"
-msgstr ""
+msgstr " つのテーブルあたりのカラー"
 
 #: Shapes/ShapesView.cpp:1102 Shapes/ShapesView.cpp:1393
 msgid " bitmap"
@@ -2618,7 +2623,6 @@ msgstr " のフレーム"
 
 #: Shapes/ShapesView.cpp:1149
 #, c-format
-#| msgid "Sequence"
 msgid "Sequence %d of %u"
 msgstr ""
 
@@ -2631,7 +2635,7 @@ msgstr ""
 
 #: Shapes/ShapesView.cpp:1165 Sounds/SoundsView.cpp:244
 msgid "Warning"
-msgstr ""
+msgstr "警告"
 
 #: Shapes/ShapesView.cpp:1191 Shapes/ShapesView.cpp:1678
 msgid "Delete"
@@ -2649,7 +2653,7 @@ msgstr ""
 #: Shapes/ShapesView.cpp:1272
 #, c-format
 msgid "Bitmap %d of %d"
-msgstr ""
+msgstr "%d~%dのビットマップ"
 
 #: Shapes/ShapesView.cpp:1281
 msgid "Delete bitmap"
@@ -2772,9 +2776,9 @@ msgid ""
 msgstr ""
 
 #: Sounds/SoundsView.cpp:516
-#| msgid "Export selected sound"
+#| msgid "Error : No selection"
 msgid "Error: No selection"
-msgstr ""
+msgstr "エラー：選択がありません"
 
 #: Sounds/SoundsView.cpp:522
 msgid "There are already five permutations for this sound"
@@ -2785,6 +2789,7 @@ msgid "Error: permutation limit reached"
 msgstr ""
 
 #: Sounds/SoundsView.cpp:527
+#| msgid "Choose a file name :"
 msgid "Choose a sound file to add"
 msgstr ""
 
@@ -2793,9 +2798,8 @@ msgid "Common sound files (AIFF, WAV)|*.aif;*.wav"
 msgstr "一般的なサウンドファイル (AIFF, WAV)|*.aif;*.wav"
 
 #: Sounds/SoundsView.cpp:530
-#| msgid "Import sound"
 msgid "Error importing sound"
-msgstr ""
+msgstr "サウンドのエクスポート時にエラーが発生しました"
 
 #: Sounds/SoundsView.cpp:530
 msgid "Error"
@@ -2817,3 +2821,987 @@ msgstr "ファイル名を選択："
 #: Sounds/SoundsView.cpp:549
 msgid "WAV files (*.wav)|*.wav|AIFF files (*.aif)|*.aif"
 msgstr "WAVファイル(*.wav)|*.wav|AIFFファイル(*.aif)|*.aif"
+
+#: Physics/PhysicsView.cpp:40 Physics/PhysicsView.cpp:1068
+msgid "Appearance"
+msgstr "アピアランス"
+
+#: Physics/PhysicsView.cpp:47 Physics/PhysicsView.cpp:861
+#: Physics/PhysicsView.cpp:1074
+msgid "Graphic Collection:"
+msgstr "グラフィックコレクション："
+
+#: Physics/PhysicsView.cpp:51 Physics/PhysicsView.cpp:865
+#: Physics/PhysicsView.cpp:1078
+msgid "Color Table:"
+msgstr "カラーテーブル："
+
+#: Physics/PhysicsView.cpp:55
+msgid "Sequence IDs:"
+msgstr "シーケンスID："
+
+#: Physics/PhysicsView.cpp:62
+msgid "Hit:"
+msgstr ""
+
+#: Physics/PhysicsView.cpp:66
+msgid "Hard Dying:"
+msgstr ""
+
+#: Physics/PhysicsView.cpp:70
+msgid "Soft Dying:"
+msgstr ""
+
+#: Physics/PhysicsView.cpp:74
+msgid "Hard Dead:"
+msgstr ""
+
+#: Physics/PhysicsView.cpp:78
+msgid "Soft Dead:"
+msgstr ""
+
+#: Physics/PhysicsView.cpp:82
+msgid "Stationary:"
+msgstr ""
+
+#: Physics/PhysicsView.cpp:86
+msgid "Moving:"
+msgstr ""
+
+#: Physics/PhysicsView.cpp:90
+msgid "Teleport In:"
+msgstr ""
+
+#: Physics/PhysicsView.cpp:94
+msgid "Teleport Out:"
+msgstr ""
+
+#: Physics/PhysicsView.cpp:98
+msgid "Melee Attack:"
+msgstr ""
+
+#: Physics/PhysicsView.cpp:102
+msgid "Ranged Attack:"
+msgstr ""
+
+#: Physics/PhysicsView.cpp:121
+msgid "Activation:"
+msgstr ""
+
+#: Physics/PhysicsView.cpp:125
+msgid "Friendly Activation:"
+msgstr ""
+
+#: Physics/PhysicsView.cpp:129
+msgid "Clear:"
+msgstr ""
+
+#: Physics/PhysicsView.cpp:133
+msgid "Kill:"
+msgstr ""
+
+#: Physics/PhysicsView.cpp:137
+msgid "Apology:"
+msgstr ""
+
+#: Physics/PhysicsView.cpp:141
+msgid "Friendly Fire:"
+msgstr ""
+
+#: Physics/PhysicsView.cpp:145
+msgid "Flaming:"
+msgstr ""
+
+#: Physics/PhysicsView.cpp:149
+msgid "Random:"
+msgstr ""
+
+#: Physics/PhysicsView.cpp:156
+msgid "Random Sound Mask:"
+msgstr ""
+
+#: Physics/PhysicsView.cpp:160 Physics/PhysicsView.cpp:925
+msgid "Sound Pitch:"
+msgstr ""
+
+#: Physics/PhysicsView.cpp:179
+msgid "Attack Frequency:"
+msgstr ""
+
+#: Physics/PhysicsView.cpp:192
+msgid "Melee Attack"
+msgstr ""
+
+#: Physics/PhysicsView.cpp:192
+msgid "Ranged Attack"
+msgstr ""
+
+#: Physics/PhysicsView.cpp:198
+msgid "Type:"
+msgstr "種別："
+
+#: Physics/PhysicsView.cpp:202
+msgid "Repetitions:"
+msgstr ""
+
+#: Physics/PhysicsView.cpp:206
+msgid "Error:"
+msgstr "エラー："
+
+#: Physics/PhysicsView.cpp:210
+msgid "Range:"
+msgstr ""
+
+#: Physics/PhysicsView.cpp:214
+msgid "Sequence ID:"
+msgstr "シーケンスID："
+
+#: Physics/PhysicsView.cpp:218 Physics/PhysicsView.cpp:1337
+msgid "dx:"
+msgstr ""
+
+#: Physics/PhysicsView.cpp:222
+msgid "dy:"
+msgstr ""
+
+#: Physics/PhysicsView.cpp:226 Physics/PhysicsView.cpp:1341
+msgid "dz:"
+msgstr ""
+
+#: Physics/PhysicsView.cpp:235
+msgid "Shrapnel"
+msgstr ""
+
+#: Physics/PhysicsView.cpp:241
+msgid "Shrapnel Radius:"
+msgstr ""
+
+#: Physics/PhysicsView.cpp:248 Physics/PhysicsView.cpp:882
+msgid "Damage Type:"
+msgstr "ダメージの種類："
+
+#: Physics/PhysicsView.cpp:254 Physics/PhysicsView.cpp:904
+msgid "Alien Damage (varies with level)"
+msgstr ""
+
+#: Physics/PhysicsView.cpp:266
+msgid "Base Damage:"
+msgstr "基本ダメージ："
+
+#: Physics/PhysicsView.cpp:270
+msgid "Random Damage:"
+msgstr "ランダムダメージ："
+
+#: Physics/PhysicsView.cpp:274
+msgid "Scale:"
+msgstr "大きさ："
+
+#: Physics/PhysicsView.cpp:282
+msgid "Impact Effects (hits on monster)"
+msgstr ""
+
+#: Physics/PhysicsView.cpp:291
+msgid "Ranged:"
+msgstr ""
+
+#: Physics/PhysicsView.cpp:295
+msgid "Melee:"
+msgstr ""
+
+#: Physics/PhysicsView.cpp:318
+msgid "Vitality:"
+msgstr ""
+
+#: Physics/PhysicsView.cpp:329 Physics/PhysicsView.cpp:762
+#: Physics/PhysicsView.cpp:932
+msgid "Radius:"
+msgstr ""
+
+#: Physics/PhysicsView.cpp:333 Physics/PhysicsView.cpp:766
+msgid "Height:"
+msgstr ""
+
+#: Physics/PhysicsView.cpp:339 Physics/PhysicsView.cpp:683
+msgid "Movement"
+msgstr ""
+
+#: Physics/PhysicsView.cpp:345 Physics/PhysicsView.cpp:940
+msgid "Speed:"
+msgstr ""
+
+#: Physics/PhysicsView.cpp:349
+msgid "Terminal Velocity:"
+msgstr ""
+
+#: Physics/PhysicsView.cpp:353
+msgid "Gravity:"
+msgstr ""
+
+#: Physics/PhysicsView.cpp:360
+msgid "Min. Ledge Jump:"
+msgstr ""
+
+#: Physics/PhysicsView.cpp:364
+msgid "Max. Ledge Jump:"
+msgstr ""
+
+#: Physics/PhysicsView.cpp:368
+msgid "External Velocity Scale:"
+msgstr ""
+
+#: Physics/PhysicsView.cpp:372
+msgid "Hover Height:"
+msgstr ""
+
+#: Physics/PhysicsView.cpp:379
+msgid "Door Retry Mask:"
+msgstr ""
+
+#: Physics/PhysicsView.cpp:387
+msgid "Perception"
+msgstr ""
+
+#: Physics/PhysicsView.cpp:393
+msgid "Visual Range:"
+msgstr ""
+
+#: Physics/PhysicsView.cpp:397
+msgid "Dark Visual Range:"
+msgstr ""
+
+#: Physics/PhysicsView.cpp:401
+msgid "Intelligence:"
+msgstr ""
+
+#: Physics/PhysicsView.cpp:420
+msgid "Carrying Item Type:"
+msgstr ""
+
+#: Physics/PhysicsView.cpp:424
+msgid "Contrail Effect:"
+msgstr ""
+
+#: Physics/PhysicsView.cpp:439
+msgid "Class:"
+msgstr "クラス："
+
+#: Physics/PhysicsView.cpp:446
+msgid "Friends"
+msgstr "友好関係"
+
+#: Physics/PhysicsView.cpp:466
+msgid "Enemies"
+msgstr "敵対関係"
+
+#: Physics/PhysicsView.cpp:486
+msgid "Flies"
+msgstr "飛べる"
+
+#: Physics/PhysicsView.cpp:487
+msgid "Is Alien"
+msgstr "エイリアン"
+
+#: Physics/PhysicsView.cpp:488
+msgid "Major"
+msgstr "メジャー"
+
+#: Physics/PhysicsView.cpp:489
+msgid "Minor"
+msgstr "マイナー"
+
+#: Physics/PhysicsView.cpp:490
+msgid "Cannot Skip"
+msgstr ""
+
+#: Physics/PhysicsView.cpp:491
+msgid "Floats"
+msgstr "浮く"
+
+#: Physics/PhysicsView.cpp:492
+msgid "Cannot Attack"
+msgstr "攻撃不可"
+
+#: Physics/PhysicsView.cpp:493
+msgid "Uses Sniper Ledges"
+msgstr ""
+
+#: Physics/PhysicsView.cpp:494
+msgid "Invisible"
+msgstr ""
+
+#: Physics/PhysicsView.cpp:495
+msgid "Subtly Invisible"
+msgstr ""
+
+#: Physics/PhysicsView.cpp:496
+msgid "Kamikaze"
+msgstr "神風"
+
+#: Physics/PhysicsView.cpp:497
+msgid "Berserker"
+msgstr ""
+
+#: Physics/PhysicsView.cpp:498
+#, fuzzy
+#| msgid "Large"
+msgid "Enlarged"
+msgstr "大"
+
+#: Physics/PhysicsView.cpp:499
+msgid "Delayed Hard Death"
+msgstr ""
+
+#: Physics/PhysicsView.cpp:500
+msgid "Fires Symmetrically"
+msgstr ""
+
+#: Physics/PhysicsView.cpp:501
+msgid "Nuclear Hard Death"
+msgstr ""
+
+#: Physics/PhysicsView.cpp:502
+msgid "Can't Fire Backwards"
+msgstr ""
+
+#: Physics/PhysicsView.cpp:503
+msgid "Die in Flames"
+msgstr "火炎で死ぬ"
+
+#: Physics/PhysicsView.cpp:504
+msgid "Stay with Clear Shot"
+msgstr ""
+
+#: Physics/PhysicsView.cpp:505
+msgid "Tiny"
+msgstr "タイニー"
+
+#: Physics/PhysicsView.cpp:506
+msgid "Attacks Immediately"
+msgstr ""
+
+#: Physics/PhysicsView.cpp:507
+msgid "Not Afraid of Water"
+msgstr "水に抵抗"
+
+#: Physics/PhysicsView.cpp:508
+msgid "Not Afraid of Sewage"
+msgstr "沼に抵抗"
+
+#: Physics/PhysicsView.cpp:509
+msgid "Not Afraid of Lava"
+msgstr "溶岩に抵抗"
+
+#: Physics/PhysicsView.cpp:510
+msgid "Not Afraid of Goo"
+msgstr "下水に抵抗"
+
+#: Physics/PhysicsView.cpp:511
+msgid "Can Teleport Under Liquid"
+msgstr "水面下でテレポート可能"
+
+#: Physics/PhysicsView.cpp:512
+msgid "Chooses Weapon Randomly"
+msgstr ""
+
+#: Physics/PhysicsView.cpp:513
+msgid "(M1) Weaknesses Cause Soft Death"
+msgstr ""
+
+#: Physics/PhysicsView.cpp:514
+msgid "(M1) Screams When Crushed"
+msgstr ""
+
+#: Physics/PhysicsView.cpp:515
+msgid "(M1) Makes Sound When Activated"
+msgstr ""
+
+#: Physics/PhysicsView.cpp:516
+msgid "(M1) Can Grenade Climb (Player Only)"
+msgstr ""
+
+#: Physics/PhysicsView.cpp:533 Physics/PhysicsView.cpp:990
+#: Physics/PhysicsView.cpp:1201
+msgid "Flags"
+msgstr "フラグ"
+
+#: Physics/PhysicsView.cpp:565
+msgid "Immunities"
+msgstr "発光"
+
+#: Physics/PhysicsView.cpp:583
+msgid "Weaknesses"
+msgstr "弱点"
+
+#: Physics/PhysicsView.cpp:610
+msgid "Effect"
+msgstr "効果"
+
+#: Physics/PhysicsView.cpp:617
+msgid "Graphic collection:"
+msgstr "グラフィックコレクション："
+
+#: Physics/PhysicsView.cpp:621
+msgid "Color table:"
+msgstr "カラーテーブル："
+
+#: Physics/PhysicsView.cpp:625 Physics/PhysicsView.cpp:869
+msgid "Sequence:"
+msgstr "シーケンス："
+
+#: Physics/PhysicsView.cpp:632
+msgid "Sound pitch:"
+msgstr "サウンドのピッチ："
+
+#: Physics/PhysicsView.cpp:639
+msgid "Delay:"
+msgstr "遅延："
+
+#: Physics/PhysicsView.cpp:647
+msgid "Delay sound:"
+msgstr "遅延サウンド："
+
+#: Physics/PhysicsView.cpp:655
+msgid "End when animation loops"
+msgstr ""
+
+#: Physics/PhysicsView.cpp:658
+msgid "End when transfer animation loops"
+msgstr ""
+
+#: Physics/PhysicsView.cpp:662
+msgid "Sound only"
+msgstr "サウンドのみ"
+
+#: Physics/PhysicsView.cpp:666
+msgid "Media effect"
+msgstr ""
+
+#: Physics/PhysicsView.cpp:690
+msgid "Max. forward velocity:"
+msgstr ""
+
+#: Physics/PhysicsView.cpp:694
+msgid "Max. backward velocity:"
+msgstr ""
+
+#: Physics/PhysicsView.cpp:698
+msgid "Max. perpendicular velocity:"
+msgstr ""
+
+#: Physics/PhysicsView.cpp:705
+msgid "Acceleration:"
+msgstr ""
+
+#: Physics/PhysicsView.cpp:709
+msgid "Deceleration:"
+msgstr ""
+
+#: Physics/PhysicsView.cpp:713
+msgid "Airborne deceleration:"
+msgstr ""
+
+#: Physics/PhysicsView.cpp:717
+msgid "Gravitational acceleration:"
+msgstr ""
+
+#: Physics/PhysicsView.cpp:721
+msgid "Climbing acceleration:"
+msgstr ""
+
+#: Physics/PhysicsView.cpp:725
+msgid "Terminal velocity:"
+msgstr ""
+
+#: Physics/PhysicsView.cpp:729
+msgid "External deceleration:"
+msgstr ""
+
+#: Physics/PhysicsView.cpp:737
+msgid "Steps"
+msgstr "ステップ"
+
+#: Physics/PhysicsView.cpp:743
+msgid "Step delta:"
+msgstr ""
+
+#: Physics/PhysicsView.cpp:747
+msgid "Step amplitude:"
+msgstr ""
+
+#: Physics/PhysicsView.cpp:756
+msgid "Player Size"
+msgstr "プレイヤーの大きさ"
+
+#: Physics/PhysicsView.cpp:777
+msgid "Turning/Head Movement"
+msgstr ""
+
+#: Physics/PhysicsView.cpp:783
+msgid "Angular acceleration:"
+msgstr ""
+
+#: Physics/PhysicsView.cpp:787
+msgid "Angular deceleration:"
+msgstr ""
+
+#: Physics/PhysicsView.cpp:791
+msgid "Maximum angular velocity:"
+msgstr ""
+
+#: Physics/PhysicsView.cpp:795
+msgid "Angular recentering velocity:"
+msgstr ""
+
+#: Physics/PhysicsView.cpp:799
+msgid "Head angular velocity:"
+msgstr ""
+
+#: Physics/PhysicsView.cpp:803
+msgid "Head angular maximum:"
+msgstr ""
+
+#: Physics/PhysicsView.cpp:807
+msgid "Maximum elevation:"
+msgstr ""
+
+#: Physics/PhysicsView.cpp:811
+msgid "External angular deceleration:"
+msgstr ""
+
+#: Physics/PhysicsView.cpp:818
+msgid "Heights (for camera)"
+msgstr ""
+
+#: Physics/PhysicsView.cpp:824
+msgid "Dead height:"
+msgstr ""
+
+#: Physics/PhysicsView.cpp:828
+msgid "Camera height:"
+msgstr ""
+
+#: Physics/PhysicsView.cpp:832
+msgid "Splash height:"
+msgstr ""
+
+#: Physics/PhysicsView.cpp:836
+msgid "Half camera separation:"
+msgstr ""
+
+#: Physics/PhysicsView.cpp:852
+msgid "Shot"
+msgstr "ショット"
+
+#: Physics/PhysicsView.cpp:875
+msgid "Damage"
+msgstr "ダメージ"
+
+#: Physics/PhysicsView.cpp:890
+msgid "Damage Base:"
+msgstr "基準ダメージ："
+
+#: Physics/PhysicsView.cpp:894
+msgid "Damage Random:"
+msgstr "ダメージのランダム："
+
+#: Physics/PhysicsView.cpp:898
+msgid "Damage Scale:"
+msgstr ""
+
+#: Physics/PhysicsView.cpp:917
+msgid "Flyby Sound:"
+msgstr "フライバイサウンド："
+
+#: Physics/PhysicsView.cpp:921
+msgid "Rebound Sound:"
+msgstr ""
+
+#: Physics/PhysicsView.cpp:936
+msgid "Area of Effect:"
+msgstr ""
+
+#: Physics/PhysicsView.cpp:944
+msgid "Maximum Range:"
+msgstr ""
+
+#: Physics/PhysicsView.cpp:954
+msgid "Detonation Effect:"
+msgstr ""
+
+#: Physics/PhysicsView.cpp:960
+msgid "Small Splash"
+msgstr "小さい飛沫"
+
+#: Physics/PhysicsView.cpp:961
+msgid "Medium Splash"
+msgstr "中ぐらいの飛沫"
+
+#: Physics/PhysicsView.cpp:964
+msgid "Media Detonation Effect:"
+msgstr ""
+
+#: Physics/PhysicsView.cpp:971
+msgid "Contrail:"
+msgstr ""
+
+#: Physics/PhysicsView.cpp:975
+msgid "Ticks between contrails:"
+msgstr ""
+
+#: Physics/PhysicsView.cpp:979
+msgid "Maximum contrails:"
+msgstr ""
+
+#: Physics/PhysicsView.cpp:993
+msgid "Guided"
+msgstr ""
+
+#: Physics/PhysicsView.cpp:994
+msgid "Stop when animation loops"
+msgstr ""
+
+#: Physics/PhysicsView.cpp:995
+msgid "Persistent"
+msgstr ""
+
+#: Physics/PhysicsView.cpp:996
+msgid "Alien"
+msgstr "エイリアン"
+
+#: Physics/PhysicsView.cpp:997
+msgid "Affected by gravity"
+msgstr ""
+
+#: Physics/PhysicsView.cpp:998
+msgid "No horizontal error"
+msgstr ""
+
+#: Physics/PhysicsView.cpp:999
+msgid "No vertical error"
+msgstr ""
+
+#: Physics/PhysicsView.cpp:1000
+msgid "Can toggle control panels"
+msgstr ""
+
+#: Physics/PhysicsView.cpp:1001
+msgid "Positive vertical error"
+msgstr ""
+
+#: Physics/PhysicsView.cpp:1002
+msgid "Melee projectile"
+msgstr ""
+
+#: Physics/PhysicsView.cpp:1003
+msgid "Persistent and virulent"
+msgstr ""
+
+#: Physics/PhysicsView.cpp:1004
+msgid "Usually pass transparent side"
+msgstr ""
+
+#: Physics/PhysicsView.cpp:1005
+#| msgid "Show transparent pixels"
+msgid "Sometimes pass transparent side"
+msgstr ""
+
+#: Physics/PhysicsView.cpp:1006
+msgid "Doubly affected by gravity"
+msgstr ""
+
+#: Physics/PhysicsView.cpp:1007
+msgid "Rebounds from floor"
+msgstr ""
+
+#: Physics/PhysicsView.cpp:1008
+msgid "Penetrates liquids"
+msgstr ""
+
+#: Physics/PhysicsView.cpp:1009
+msgid "Becomes item on detonation"
+msgstr ""
+
+#: Physics/PhysicsView.cpp:1010
+msgid "Bleeding projectile"
+msgstr ""
+
+#: Physics/PhysicsView.cpp:1011
+msgid "Horizontal wander"
+msgstr ""
+
+#: Physics/PhysicsView.cpp:1012
+msgid "Vertical wander"
+msgstr ""
+
+#: Physics/PhysicsView.cpp:1013
+msgid "Affected by half gravity"
+msgstr ""
+
+#: Physics/PhysicsView.cpp:1014
+msgid "Penetrates liquid boundary (inf)"
+msgstr ""
+
+#: Physics/PhysicsView.cpp:1031
+msgid "Media impact:"
+msgstr ""
+
+#: Physics/PhysicsView.cpp:1061
+msgid "Item Type:"
+msgstr ""
+
+#: Physics/PhysicsView.cpp:1082
+msgid "Idle:"
+msgstr ""
+
+#: Physics/PhysicsView.cpp:1086 Physics/PhysicsView.cpp:1275
+msgid "Firing:"
+msgstr ""
+
+#: Physics/PhysicsView.cpp:1090 Physics/PhysicsView.cpp:1291
+msgid "Reloading:"
+msgstr ""
+
+#: Physics/PhysicsView.cpp:1094 Physics/PhysicsView.cpp:1283
+msgid "Charging:"
+msgstr ""
+
+#: Physics/PhysicsView.cpp:1098 Physics/PhysicsView.cpp:1295
+msgid "Charged:"
+msgstr ""
+
+#: Physics/PhysicsView.cpp:1105
+msgid "Flash Intensity:"
+msgstr ""
+
+#: Physics/PhysicsView.cpp:1114
+msgid "Timing (all in ticks)"
+msgstr ""
+
+#: Physics/PhysicsView.cpp:1120
+msgid "Ready:"
+msgstr ""
+
+#: Physics/PhysicsView.cpp:1124
+msgid "Await Reload:"
+msgstr ""
+
+#: Physics/PhysicsView.cpp:1128
+msgid "Loading:"
+msgstr ""
+
+#: Physics/PhysicsView.cpp:1132
+msgid "Finish Loading:"
+msgstr ""
+
+#: Physics/PhysicsView.cpp:1139
+msgid "Flash Decay:"
+msgstr ""
+
+#: Physics/PhysicsView.cpp:1156
+msgid "Melee"
+msgstr ""
+
+#: Physics/PhysicsView.cpp:1157
+msgid "Single Function"
+msgstr ""
+
+#: Physics/PhysicsView.cpp:1158
+msgid "Dual Function"
+msgstr ""
+
+#: Physics/PhysicsView.cpp:1159
+msgid "Two-Fisted"
+msgstr ""
+
+#: Physics/PhysicsView.cpp:1160
+msgid "Multipurpose"
+msgstr ""
+
+#: Physics/PhysicsView.cpp:1163
+msgid "Weapon Class:"
+msgstr ""
+
+#: Physics/PhysicsView.cpp:1170
+msgid "Height and Idle"
+msgstr ""
+
+#: Physics/PhysicsView.cpp:1176
+msgid "Idle Height:"
+msgstr ""
+
+#: Physics/PhysicsView.cpp:1180
+msgid "Bob Amplitude:"
+msgstr ""
+
+#: Physics/PhysicsView.cpp:1184
+msgid "Kick Height:"
+msgstr ""
+
+#: Physics/PhysicsView.cpp:1188
+msgid "Reload Height:"
+msgstr ""
+
+#: Physics/PhysicsView.cpp:1192
+msgid "Idle Width:"
+msgstr ""
+
+#: Physics/PhysicsView.cpp:1203
+msgid "Automatic"
+msgstr "自動"
+
+#: Physics/PhysicsView.cpp:1204
+msgid "Disappears after use"
+msgstr ""
+
+#: Physics/PhysicsView.cpp:1205
+msgid "Plays instant shell casing sound"
+msgstr ""
+
+#: Physics/PhysicsView.cpp:1206
+msgid "Overloads"
+msgstr ""
+
+#: Physics/PhysicsView.cpp:1207
+msgid "Random ammo on pickup"
+msgstr ""
+
+#: Physics/PhysicsView.cpp:1208
+msgid "Reloads in one hand"
+msgstr ""
+
+#: Physics/PhysicsView.cpp:1209
+msgid "Fires out of phase"
+msgstr ""
+
+#: Physics/PhysicsView.cpp:1210
+msgid "Fires under liquids"
+msgstr ""
+
+#: Physics/PhysicsView.cpp:1211
+msgid "Triggers share ammo"
+msgstr ""
+
+#: Physics/PhysicsView.cpp:1212
+msgid "Angular flipping on 2nd trigger"
+msgstr ""
+
+#: Physics/PhysicsView.cpp:1236
+msgid "Main Trigger"
+msgstr "メイントリガー"
+
+#: Physics/PhysicsView.cpp:1237
+msgid "Secondary Trigger"
+msgstr ""
+
+#: Physics/PhysicsView.cpp:1256
+msgid "Projectile:"
+msgstr ""
+
+#: Physics/PhysicsView.cpp:1263
+msgid "Rounds/magazine:"
+msgstr ""
+
+#: Physics/PhysicsView.cpp:1279
+msgid "Click:"
+msgstr "クリック："
+
+#: Physics/PhysicsView.cpp:1287
+msgid "Shell Casing:"
+msgstr ""
+
+#: Physics/PhysicsView.cpp:1310
+msgid "Ammo Type:"
+msgstr "弾倉種別："
+
+#: Physics/PhysicsView.cpp:1317
+msgid "Ticks/round:"
+msgstr ""
+
+#: Physics/PhysicsView.cpp:1321
+msgid "Recovery Ticks:"
+msgstr ""
+
+#: Physics/PhysicsView.cpp:1325
+msgid "Charging Ticks:"
+msgstr ""
+
+#: Physics/PhysicsView.cpp:1329
+msgid "Recoil Magnitude:"
+msgstr ""
+
+#: Physics/PhysicsView.cpp:1333
+msgid "Theta Error:"
+msgstr ""
+
+#: Physics/PhysicsView.cpp:1345
+msgid "Burst Count:"
+msgstr ""
+
+#: Physics/PhysicsView.cpp:1355
+msgid "Pistol Center"
+msgstr ""
+
+#: Physics/PhysicsView.cpp:1356
+msgid "Pistol Left"
+msgstr ""
+
+#: Physics/PhysicsView.cpp:1357
+msgid "Pistol Right"
+msgstr ""
+
+#: Physics/PhysicsView.cpp:1361
+#| msgid "Collection type:"
+msgid "Shell casing type:"
+msgstr ""
+
+#: Physics/PhysicsView.cpp:1458
+msgid "Aliens"
+msgstr "エイリアン"
+
+#: Physics/PhysicsView.cpp:1463
+msgid "Appearance and Sounds"
+msgstr "外観とサウンド"
+
+#: Physics/PhysicsView.cpp:1464
+msgid "Combat Settings"
+msgstr "戦闘設定"
+
+#: Physics/PhysicsView.cpp:1465
+msgid "Physical Constants"
+msgstr "物理設定"
+
+#: Physics/PhysicsView.cpp:1466
+msgid "Behavior Settings"
+msgstr ""
+
+#: Physics/PhysicsView.cpp:1467
+msgid "Immunities and Weaknesses"
+msgstr "免疫と弱点"
+
+#: Physics/PhysicsView.cpp:1470
+msgid "Effects"
+msgstr "効果"
+
+#: Physics/PhysicsView.cpp:1476
+msgid "Shots"
+msgstr "ショット"
+
+#: Physics/PhysicsView.cpp:1483
+msgid "Walking"
+msgstr "歩行"
+
+#: Physics/PhysicsView.cpp:1484
+msgid "Running"
+msgstr "走行"
+
+#: Physics/PhysicsView.cpp:1486
+msgid "Weapons"
+msgstr "武器"
+
+#: Physics/PhysicsView.cpp:1491
+msgid "Weapon Definition"
+msgstr "武器の定義"
+
+#: Physics/PhysicsView.cpp:1492
+msgid "Trigger Settings"
+msgstr "トリガー設定"

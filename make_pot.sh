@@ -1,3 +1,3 @@
 #/!bin/sh
 
-xgettext --keyword='_' ./*.cpp  ./Shapes/*.cpp ./Sounds/*.cpp -o ./lang/messages.pot
+xgettext --keyword='_' ./*.cpp  ./Shapes/*.cpp ./Sounds/*.cpp ./Physics/*.cpp -o ./lang/messages.pot

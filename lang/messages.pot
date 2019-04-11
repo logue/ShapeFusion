@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2019-04-11 08:51+0900\n"
+"POT-Creation-Date: 2019-04-11 09:18+0900\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -745,7 +745,7 @@ msgstr ""
 msgid "Plasma Battery"
 msgstr ""
 
-#: DefaultNames.cpp:238 DefaultNames.cpp:535
+#: DefaultNames.cpp:238 DefaultNames.cpp:535 Physics/PhysicsView.cpp:1354
 msgid "Assault Rifle"
 msgstr ""
 
@@ -858,7 +858,7 @@ msgstr ""
 msgid "Green Ball"
 msgstr ""
 
-#: DefaultNames.cpp:267 DefaultNames.cpp:541
+#: DefaultNames.cpp:267 DefaultNames.cpp:541 Physics/PhysicsView.cpp:1358
 msgid "SMG"
 msgstr ""
 
@@ -1790,7 +1790,11 @@ msgstr ""
 msgid "Pistol"
 msgstr ""
 
-#: DefaultNames.cpp:628
+#: DefaultNames.cpp:628 Physics/PhysicsView.cpp:246 Physics/PhysicsView.cpp:418
+#: Physics/PhysicsView.cpp:885 Physics/PhysicsView.cpp:959
+#: Physics/PhysicsView.cpp:1059 Physics/PhysicsView.cpp:1155
+#: Physics/PhysicsView.cpp:1241 Physics/PhysicsView.cpp:1244
+#: Physics/PhysicsView.cpp:1353
 msgid "None"
 msgstr ""
 
@@ -1799,6 +1803,7 @@ msgid "ShapeFusion Workspace"
 msgstr ""
 
 #: ShapeFusionDocManager.cpp:45 ShapeFusionDocManager.cpp:68
+#: Physics/PhysicsView.cpp:111 Physics/PhysicsView.cpp:1269
 msgid "Sounds"
 msgstr ""
 
@@ -1806,7 +1811,7 @@ msgstr ""
 msgid "Shapes"
 msgstr ""
 
-#: ShapeFusionDocManager.cpp:121
+#: ShapeFusionDocManager.cpp:121 Physics/PhysicsView.cpp:1482
 msgid "Physics"
 msgstr ""
 
@@ -2784,4 +2789,984 @@ msgstr ""
 
 #: Sounds/SoundsView.cpp:549
 msgid "WAV files (*.wav)|*.wav|AIFF files (*.aif)|*.aif"
+msgstr ""
+
+#: Physics/PhysicsView.cpp:40 Physics/PhysicsView.cpp:1068
+msgid "Appearance"
+msgstr ""
+
+#: Physics/PhysicsView.cpp:47 Physics/PhysicsView.cpp:861
+#: Physics/PhysicsView.cpp:1074
+msgid "Graphic Collection:"
+msgstr ""
+
+#: Physics/PhysicsView.cpp:51 Physics/PhysicsView.cpp:865
+#: Physics/PhysicsView.cpp:1078
+msgid "Color Table:"
+msgstr ""
+
+#: Physics/PhysicsView.cpp:55
+msgid "Sequence IDs:"
+msgstr ""
+
+#: Physics/PhysicsView.cpp:62
+msgid "Hit:"
+msgstr ""
+
+#: Physics/PhysicsView.cpp:66
+msgid "Hard Dying:"
+msgstr ""
+
+#: Physics/PhysicsView.cpp:70
+msgid "Soft Dying:"
+msgstr ""
+
+#: Physics/PhysicsView.cpp:74
+msgid "Hard Dead:"
+msgstr ""
+
+#: Physics/PhysicsView.cpp:78
+msgid "Soft Dead:"
+msgstr ""
+
+#: Physics/PhysicsView.cpp:82
+msgid "Stationary:"
+msgstr ""
+
+#: Physics/PhysicsView.cpp:86
+msgid "Moving:"
+msgstr ""
+
+#: Physics/PhysicsView.cpp:90
+msgid "Teleport In:"
+msgstr ""
+
+#: Physics/PhysicsView.cpp:94
+msgid "Teleport Out:"
+msgstr ""
+
+#: Physics/PhysicsView.cpp:98
+msgid "Melee Attack:"
+msgstr ""
+
+#: Physics/PhysicsView.cpp:102
+msgid "Ranged Attack:"
+msgstr ""
+
+#: Physics/PhysicsView.cpp:121
+msgid "Activation:"
+msgstr ""
+
+#: Physics/PhysicsView.cpp:125
+msgid "Friendly Activation:"
+msgstr ""
+
+#: Physics/PhysicsView.cpp:129
+msgid "Clear:"
+msgstr ""
+
+#: Physics/PhysicsView.cpp:133
+msgid "Kill:"
+msgstr ""
+
+#: Physics/PhysicsView.cpp:137
+msgid "Apology:"
+msgstr ""
+
+#: Physics/PhysicsView.cpp:141
+msgid "Friendly Fire:"
+msgstr ""
+
+#: Physics/PhysicsView.cpp:145
+msgid "Flaming:"
+msgstr ""
+
+#: Physics/PhysicsView.cpp:149
+msgid "Random:"
+msgstr ""
+
+#: Physics/PhysicsView.cpp:156
+msgid "Random Sound Mask:"
+msgstr ""
+
+#: Physics/PhysicsView.cpp:160 Physics/PhysicsView.cpp:925
+msgid "Sound Pitch:"
+msgstr ""
+
+#: Physics/PhysicsView.cpp:179
+msgid "Attack Frequency:"
+msgstr ""
+
+#: Physics/PhysicsView.cpp:192
+msgid "Melee Attack"
+msgstr ""
+
+#: Physics/PhysicsView.cpp:192
+msgid "Ranged Attack"
+msgstr ""
+
+#: Physics/PhysicsView.cpp:198
+msgid "Type:"
+msgstr ""
+
+#: Physics/PhysicsView.cpp:202
+msgid "Repetitions:"
+msgstr ""
+
+#: Physics/PhysicsView.cpp:206
+msgid "Error:"
+msgstr ""
+
+#: Physics/PhysicsView.cpp:210
+msgid "Range:"
+msgstr ""
+
+#: Physics/PhysicsView.cpp:214
+msgid "Sequence ID:"
+msgstr ""
+
+#: Physics/PhysicsView.cpp:218 Physics/PhysicsView.cpp:1337
+msgid "dx:"
+msgstr ""
+
+#: Physics/PhysicsView.cpp:222
+msgid "dy:"
+msgstr ""
+
+#: Physics/PhysicsView.cpp:226 Physics/PhysicsView.cpp:1341
+msgid "dz:"
+msgstr ""
+
+#: Physics/PhysicsView.cpp:235
+msgid "Shrapnel"
+msgstr ""
+
+#: Physics/PhysicsView.cpp:241
+msgid "Shrapnel Radius:"
+msgstr ""
+
+#: Physics/PhysicsView.cpp:248 Physics/PhysicsView.cpp:882
+msgid "Damage Type:"
+msgstr ""
+
+#: Physics/PhysicsView.cpp:254 Physics/PhysicsView.cpp:904
+msgid "Alien Damage (varies with level)"
+msgstr ""
+
+#: Physics/PhysicsView.cpp:266
+msgid "Base Damage:"
+msgstr ""
+
+#: Physics/PhysicsView.cpp:270
+msgid "Random Damage:"
+msgstr ""
+
+#: Physics/PhysicsView.cpp:274
+msgid "Scale:"
+msgstr ""
+
+#: Physics/PhysicsView.cpp:282
+msgid "Impact Effects (hits on monster)"
+msgstr ""
+
+#: Physics/PhysicsView.cpp:291
+msgid "Ranged:"
+msgstr ""
+
+#: Physics/PhysicsView.cpp:295
+msgid "Melee:"
+msgstr ""
+
+#: Physics/PhysicsView.cpp:318
+msgid "Vitality:"
+msgstr ""
+
+#: Physics/PhysicsView.cpp:329 Physics/PhysicsView.cpp:762
+#: Physics/PhysicsView.cpp:932
+msgid "Radius:"
+msgstr ""
+
+#: Physics/PhysicsView.cpp:333 Physics/PhysicsView.cpp:766
+msgid "Height:"
+msgstr ""
+
+#: Physics/PhysicsView.cpp:339 Physics/PhysicsView.cpp:683
+msgid "Movement"
+msgstr ""
+
+#: Physics/PhysicsView.cpp:345 Physics/PhysicsView.cpp:940
+msgid "Speed:"
+msgstr ""
+
+#: Physics/PhysicsView.cpp:349
+msgid "Terminal Velocity:"
+msgstr ""
+
+#: Physics/PhysicsView.cpp:353
+msgid "Gravity:"
+msgstr ""
+
+#: Physics/PhysicsView.cpp:360
+msgid "Min. Ledge Jump:"
+msgstr ""
+
+#: Physics/PhysicsView.cpp:364
+msgid "Max. Ledge Jump:"
+msgstr ""
+
+#: Physics/PhysicsView.cpp:368
+msgid "External Velocity Scale:"
+msgstr ""
+
+#: Physics/PhysicsView.cpp:372
+msgid "Hover Height:"
+msgstr ""
+
+#: Physics/PhysicsView.cpp:379
+msgid "Door Retry Mask:"
+msgstr ""
+
+#: Physics/PhysicsView.cpp:387
+msgid "Perception"
+msgstr ""
+
+#: Physics/PhysicsView.cpp:393
+msgid "Visual Range:"
+msgstr ""
+
+#: Physics/PhysicsView.cpp:397
+msgid "Dark Visual Range:"
+msgstr ""
+
+#: Physics/PhysicsView.cpp:401
+msgid "Intelligence:"
+msgstr ""
+
+#: Physics/PhysicsView.cpp:420
+msgid "Carrying Item Type:"
+msgstr ""
+
+#: Physics/PhysicsView.cpp:424
+msgid "Contrail Effect:"
+msgstr ""
+
+#: Physics/PhysicsView.cpp:439
+msgid "Class:"
+msgstr ""
+
+#: Physics/PhysicsView.cpp:446
+msgid "Friends"
+msgstr ""
+
+#: Physics/PhysicsView.cpp:466
+msgid "Enemies"
+msgstr ""
+
+#: Physics/PhysicsView.cpp:486
+msgid "Flies"
+msgstr ""
+
+#: Physics/PhysicsView.cpp:487
+msgid "Is Alien"
+msgstr ""
+
+#: Physics/PhysicsView.cpp:488
+msgid "Major"
+msgstr ""
+
+#: Physics/PhysicsView.cpp:489
+msgid "Minor"
+msgstr ""
+
+#: Physics/PhysicsView.cpp:490
+msgid "Cannot Skip"
+msgstr ""
+
+#: Physics/PhysicsView.cpp:491
+msgid "Floats"
+msgstr ""
+
+#: Physics/PhysicsView.cpp:492
+msgid "Cannot Attack"
+msgstr ""
+
+#: Physics/PhysicsView.cpp:493
+msgid "Uses Sniper Ledges"
+msgstr ""
+
+#: Physics/PhysicsView.cpp:494
+msgid "Invisible"
+msgstr ""
+
+#: Physics/PhysicsView.cpp:495
+msgid "Subtly Invisible"
+msgstr ""
+
+#: Physics/PhysicsView.cpp:496
+msgid "Kamikaze"
+msgstr ""
+
+#: Physics/PhysicsView.cpp:497
+msgid "Berserker"
+msgstr ""
+
+#: Physics/PhysicsView.cpp:498
+msgid "Enlarged"
+msgstr ""
+
+#: Physics/PhysicsView.cpp:499
+msgid "Delayed Hard Death"
+msgstr ""
+
+#: Physics/PhysicsView.cpp:500
+msgid "Fires Symmetrically"
+msgstr ""
+
+#: Physics/PhysicsView.cpp:501
+msgid "Nuclear Hard Death"
+msgstr ""
+
+#: Physics/PhysicsView.cpp:502
+msgid "Can't Fire Backwards"
+msgstr ""
+
+#: Physics/PhysicsView.cpp:503
+msgid "Die in Flames"
+msgstr ""
+
+#: Physics/PhysicsView.cpp:504
+msgid "Stay with Clear Shot"
+msgstr ""
+
+#: Physics/PhysicsView.cpp:505
+msgid "Tiny"
+msgstr ""
+
+#: Physics/PhysicsView.cpp:506
+msgid "Attacks Immediately"
+msgstr ""
+
+#: Physics/PhysicsView.cpp:507
+msgid "Not Afraid of Water"
+msgstr ""
+
+#: Physics/PhysicsView.cpp:508
+msgid "Not Afraid of Sewage"
+msgstr ""
+
+#: Physics/PhysicsView.cpp:509
+msgid "Not Afraid of Lava"
+msgstr ""
+
+#: Physics/PhysicsView.cpp:510
+msgid "Not Afraid of Goo"
+msgstr ""
+
+#: Physics/PhysicsView.cpp:511
+msgid "Can Teleport Under Liquid"
+msgstr ""
+
+#: Physics/PhysicsView.cpp:512
+msgid "Chooses Weapon Randomly"
+msgstr ""
+
+#: Physics/PhysicsView.cpp:513
+msgid "(M1) Weaknesses Cause Soft Death"
+msgstr ""
+
+#: Physics/PhysicsView.cpp:514
+msgid "(M1) Screams When Crushed"
+msgstr ""
+
+#: Physics/PhysicsView.cpp:515
+msgid "(M1) Makes Sound When Activated"
+msgstr ""
+
+#: Physics/PhysicsView.cpp:516
+msgid "(M1) Can Grenade Climb (Player Only)"
+msgstr ""
+
+#: Physics/PhysicsView.cpp:533 Physics/PhysicsView.cpp:990
+#: Physics/PhysicsView.cpp:1201
+msgid "Flags"
+msgstr ""
+
+#: Physics/PhysicsView.cpp:565
+msgid "Immunities"
+msgstr ""
+
+#: Physics/PhysicsView.cpp:583
+msgid "Weaknesses"
+msgstr ""
+
+#: Physics/PhysicsView.cpp:610
+msgid "Effect"
+msgstr ""
+
+#: Physics/PhysicsView.cpp:617
+msgid "Graphic collection:"
+msgstr ""
+
+#: Physics/PhysicsView.cpp:621
+msgid "Color table:"
+msgstr ""
+
+#: Physics/PhysicsView.cpp:625 Physics/PhysicsView.cpp:869
+msgid "Sequence:"
+msgstr ""
+
+#: Physics/PhysicsView.cpp:632
+msgid "Sound pitch:"
+msgstr ""
+
+#: Physics/PhysicsView.cpp:639
+msgid "Delay:"
+msgstr ""
+
+#: Physics/PhysicsView.cpp:647
+msgid "Delay sound:"
+msgstr ""
+
+#: Physics/PhysicsView.cpp:655
+msgid "End when animation loops"
+msgstr ""
+
+#: Physics/PhysicsView.cpp:658
+msgid "End when transfer animation loops"
+msgstr ""
+
+#: Physics/PhysicsView.cpp:662
+msgid "Sound only"
+msgstr ""
+
+#: Physics/PhysicsView.cpp:666
+msgid "Media effect"
+msgstr ""
+
+#: Physics/PhysicsView.cpp:690
+msgid "Max. forward velocity:"
+msgstr ""
+
+#: Physics/PhysicsView.cpp:694
+msgid "Max. backward velocity:"
+msgstr ""
+
+#: Physics/PhysicsView.cpp:698
+msgid "Max. perpendicular velocity:"
+msgstr ""
+
+#: Physics/PhysicsView.cpp:705
+msgid "Acceleration:"
+msgstr ""
+
+#: Physics/PhysicsView.cpp:709
+msgid "Deceleration:"
+msgstr ""
+
+#: Physics/PhysicsView.cpp:713
+msgid "Airborne deceleration:"
+msgstr ""
+
+#: Physics/PhysicsView.cpp:717
+msgid "Gravitational acceleration:"
+msgstr ""
+
+#: Physics/PhysicsView.cpp:721
+msgid "Climbing acceleration:"
+msgstr ""
+
+#: Physics/PhysicsView.cpp:725
+msgid "Terminal velocity:"
+msgstr ""
+
+#: Physics/PhysicsView.cpp:729
+msgid "External deceleration:"
+msgstr ""
+
+#: Physics/PhysicsView.cpp:737
+msgid "Steps"
+msgstr ""
+
+#: Physics/PhysicsView.cpp:743
+msgid "Step delta:"
+msgstr ""
+
+#: Physics/PhysicsView.cpp:747
+msgid "Step amplitude:"
+msgstr ""
+
+#: Physics/PhysicsView.cpp:756
+msgid "Player Size"
+msgstr ""
+
+#: Physics/PhysicsView.cpp:777
+msgid "Turning/Head Movement"
+msgstr ""
+
+#: Physics/PhysicsView.cpp:783
+msgid "Angular acceleration:"
+msgstr ""
+
+#: Physics/PhysicsView.cpp:787
+msgid "Angular deceleration:"
+msgstr ""
+
+#: Physics/PhysicsView.cpp:791
+msgid "Maximum angular velocity:"
+msgstr ""
+
+#: Physics/PhysicsView.cpp:795
+msgid "Angular recentering velocity:"
+msgstr ""
+
+#: Physics/PhysicsView.cpp:799
+msgid "Head angular velocity:"
+msgstr ""
+
+#: Physics/PhysicsView.cpp:803
+msgid "Head angular maximum:"
+msgstr ""
+
+#: Physics/PhysicsView.cpp:807
+msgid "Maximum elevation:"
+msgstr ""
+
+#: Physics/PhysicsView.cpp:811
+msgid "External angular deceleration:"
+msgstr ""
+
+#: Physics/PhysicsView.cpp:818
+msgid "Heights (for camera)"
+msgstr ""
+
+#: Physics/PhysicsView.cpp:824
+msgid "Dead height:"
+msgstr ""
+
+#: Physics/PhysicsView.cpp:828
+msgid "Camera height:"
+msgstr ""
+
+#: Physics/PhysicsView.cpp:832
+msgid "Splash height:"
+msgstr ""
+
+#: Physics/PhysicsView.cpp:836
+msgid "Half camera separation:"
+msgstr ""
+
+#: Physics/PhysicsView.cpp:852
+msgid "Shot"
+msgstr ""
+
+#: Physics/PhysicsView.cpp:875
+msgid "Damage"
+msgstr ""
+
+#: Physics/PhysicsView.cpp:890
+msgid "Damage Base:"
+msgstr ""
+
+#: Physics/PhysicsView.cpp:894
+msgid "Damage Random:"
+msgstr ""
+
+#: Physics/PhysicsView.cpp:898
+msgid "Damage Scale:"
+msgstr ""
+
+#: Physics/PhysicsView.cpp:917
+msgid "Flyby Sound:"
+msgstr ""
+
+#: Physics/PhysicsView.cpp:921
+msgid "Rebound Sound:"
+msgstr ""
+
+#: Physics/PhysicsView.cpp:936
+msgid "Area of Effect:"
+msgstr ""
+
+#: Physics/PhysicsView.cpp:944
+msgid "Maximum Range:"
+msgstr ""
+
+#: Physics/PhysicsView.cpp:954
+msgid "Detonation Effect:"
+msgstr ""
+
+#: Physics/PhysicsView.cpp:960
+msgid "Small Splash"
+msgstr ""
+
+#: Physics/PhysicsView.cpp:961
+msgid "Medium Splash"
+msgstr ""
+
+#: Physics/PhysicsView.cpp:964
+msgid "Media Detonation Effect:"
+msgstr ""
+
+#: Physics/PhysicsView.cpp:971
+msgid "Contrail:"
+msgstr ""
+
+#: Physics/PhysicsView.cpp:975
+msgid "Ticks between contrails:"
+msgstr ""
+
+#: Physics/PhysicsView.cpp:979
+msgid "Maximum contrails:"
+msgstr ""
+
+#: Physics/PhysicsView.cpp:993
+msgid "Guided"
+msgstr ""
+
+#: Physics/PhysicsView.cpp:994
+msgid "Stop when animation loops"
+msgstr ""
+
+#: Physics/PhysicsView.cpp:995
+msgid "Persistent"
+msgstr ""
+
+#: Physics/PhysicsView.cpp:996
+msgid "Alien"
+msgstr ""
+
+#: Physics/PhysicsView.cpp:997
+msgid "Affected by gravity"
+msgstr ""
+
+#: Physics/PhysicsView.cpp:998
+msgid "No horizontal error"
+msgstr ""
+
+#: Physics/PhysicsView.cpp:999
+msgid "No vertical error"
+msgstr ""
+
+#: Physics/PhysicsView.cpp:1000
+msgid "Can toggle control panels"
+msgstr ""
+
+#: Physics/PhysicsView.cpp:1001
+msgid "Positive vertical error"
+msgstr ""
+
+#: Physics/PhysicsView.cpp:1002
+msgid "Melee projectile"
+msgstr ""
+
+#: Physics/PhysicsView.cpp:1003
+msgid "Persistent and virulent"
+msgstr ""
+
+#: Physics/PhysicsView.cpp:1004
+msgid "Usually pass transparent side"
+msgstr ""
+
+#: Physics/PhysicsView.cpp:1005
+msgid "Sometimes pass transparent side"
+msgstr ""
+
+#: Physics/PhysicsView.cpp:1006
+msgid "Doubly affected by gravity"
+msgstr ""
+
+#: Physics/PhysicsView.cpp:1007
+msgid "Rebounds from floor"
+msgstr ""
+
+#: Physics/PhysicsView.cpp:1008
+msgid "Penetrates liquids"
+msgstr ""
+
+#: Physics/PhysicsView.cpp:1009
+msgid "Becomes item on detonation"
+msgstr ""
+
+#: Physics/PhysicsView.cpp:1010
+msgid "Bleeding projectile"
+msgstr ""
+
+#: Physics/PhysicsView.cpp:1011
+msgid "Horizontal wander"
+msgstr ""
+
+#: Physics/PhysicsView.cpp:1012
+msgid "Vertical wander"
+msgstr ""
+
+#: Physics/PhysicsView.cpp:1013
+msgid "Affected by half gravity"
+msgstr ""
+
+#: Physics/PhysicsView.cpp:1014
+msgid "Penetrates liquid boundary (inf)"
+msgstr ""
+
+#: Physics/PhysicsView.cpp:1031
+msgid "Media impact:"
+msgstr ""
+
+#: Physics/PhysicsView.cpp:1061
+msgid "Item Type:"
+msgstr ""
+
+#: Physics/PhysicsView.cpp:1082
+msgid "Idle:"
+msgstr ""
+
+#: Physics/PhysicsView.cpp:1086 Physics/PhysicsView.cpp:1275
+msgid "Firing:"
+msgstr ""
+
+#: Physics/PhysicsView.cpp:1090 Physics/PhysicsView.cpp:1291
+msgid "Reloading:"
+msgstr ""
+
+#: Physics/PhysicsView.cpp:1094 Physics/PhysicsView.cpp:1283
+msgid "Charging:"
+msgstr ""
+
+#: Physics/PhysicsView.cpp:1098 Physics/PhysicsView.cpp:1295
+msgid "Charged:"
+msgstr ""
+
+#: Physics/PhysicsView.cpp:1105
+msgid "Flash Intensity:"
+msgstr ""
+
+#: Physics/PhysicsView.cpp:1114
+msgid "Timing (all in ticks)"
+msgstr ""
+
+#: Physics/PhysicsView.cpp:1120
+msgid "Ready:"
+msgstr ""
+
+#: Physics/PhysicsView.cpp:1124
+msgid "Await Reload:"
+msgstr ""
+
+#: Physics/PhysicsView.cpp:1128
+msgid "Loading:"
+msgstr ""
+
+#: Physics/PhysicsView.cpp:1132
+msgid "Finish Loading:"
+msgstr ""
+
+#: Physics/PhysicsView.cpp:1139
+msgid "Flash Decay:"
+msgstr ""
+
+#: Physics/PhysicsView.cpp:1156
+msgid "Melee"
+msgstr ""
+
+#: Physics/PhysicsView.cpp:1157
+msgid "Single Function"
+msgstr ""
+
+#: Physics/PhysicsView.cpp:1158
+msgid "Dual Function"
+msgstr ""
+
+#: Physics/PhysicsView.cpp:1159
+msgid "Two-Fisted"
+msgstr ""
+
+#: Physics/PhysicsView.cpp:1160
+msgid "Multipurpose"
+msgstr ""
+
+#: Physics/PhysicsView.cpp:1163
+msgid "Weapon Class:"
+msgstr ""
+
+#: Physics/PhysicsView.cpp:1170
+msgid "Height and Idle"
+msgstr ""
+
+#: Physics/PhysicsView.cpp:1176
+msgid "Idle Height:"
+msgstr ""
+
+#: Physics/PhysicsView.cpp:1180
+msgid "Bob Amplitude:"
+msgstr ""
+
+#: Physics/PhysicsView.cpp:1184
+msgid "Kick Height:"
+msgstr ""
+
+#: Physics/PhysicsView.cpp:1188
+msgid "Reload Height:"
+msgstr ""
+
+#: Physics/PhysicsView.cpp:1192
+msgid "Idle Width:"
+msgstr ""
+
+#: Physics/PhysicsView.cpp:1203
+msgid "Automatic"
+msgstr ""
+
+#: Physics/PhysicsView.cpp:1204
+msgid "Disappears after use"
+msgstr ""
+
+#: Physics/PhysicsView.cpp:1205
+msgid "Plays instant shell casing sound"
+msgstr ""
+
+#: Physics/PhysicsView.cpp:1206
+msgid "Overloads"
+msgstr ""
+
+#: Physics/PhysicsView.cpp:1207
+msgid "Random ammo on pickup"
+msgstr ""
+
+#: Physics/PhysicsView.cpp:1208
+msgid "Reloads in one hand"
+msgstr ""
+
+#: Physics/PhysicsView.cpp:1209
+msgid "Fires out of phase"
+msgstr ""
+
+#: Physics/PhysicsView.cpp:1210
+msgid "Fires under liquids"
+msgstr ""
+
+#: Physics/PhysicsView.cpp:1211
+msgid "Triggers share ammo"
+msgstr ""
+
+#: Physics/PhysicsView.cpp:1212
+msgid "Angular flipping on 2nd trigger"
+msgstr ""
+
+#: Physics/PhysicsView.cpp:1236
+msgid "Main Trigger"
+msgstr ""
+
+#: Physics/PhysicsView.cpp:1237
+msgid "Secondary Trigger"
+msgstr ""
+
+#: Physics/PhysicsView.cpp:1256
+msgid "Projectile:"
+msgstr ""
+
+#: Physics/PhysicsView.cpp:1263
+msgid "Rounds/magazine:"
+msgstr ""
+
+#: Physics/PhysicsView.cpp:1279
+msgid "Click:"
+msgstr ""
+
+#: Physics/PhysicsView.cpp:1287
+msgid "Shell Casing:"
+msgstr ""
+
+#: Physics/PhysicsView.cpp:1310
+msgid "Ammo Type:"
+msgstr ""
+
+#: Physics/PhysicsView.cpp:1317
+msgid "Ticks/round:"
+msgstr ""
+
+#: Physics/PhysicsView.cpp:1321
+msgid "Recovery Ticks:"
+msgstr ""
+
+#: Physics/PhysicsView.cpp:1325
+msgid "Charging Ticks:"
+msgstr ""
+
+#: Physics/PhysicsView.cpp:1329
+msgid "Recoil Magnitude:"
+msgstr ""
+
+#: Physics/PhysicsView.cpp:1333
+msgid "Theta Error:"
+msgstr ""
+
+#: Physics/PhysicsView.cpp:1345
+msgid "Burst Count:"
+msgstr ""
+
+#: Physics/PhysicsView.cpp:1355
+msgid "Pistol Center"
+msgstr ""
+
+#: Physics/PhysicsView.cpp:1356
+msgid "Pistol Left"
+msgstr ""
+
+#: Physics/PhysicsView.cpp:1357
+msgid "Pistol Right"
+msgstr ""
+
+#: Physics/PhysicsView.cpp:1361
+msgid "Shell casing type:"
+msgstr ""
+
+#: Physics/PhysicsView.cpp:1458
+msgid "Aliens"
+msgstr ""
+
+#: Physics/PhysicsView.cpp:1463
+msgid "Appearance and Sounds"
+msgstr ""
+
+#: Physics/PhysicsView.cpp:1464
+msgid "Combat Settings"
+msgstr ""
+
+#: Physics/PhysicsView.cpp:1465
+msgid "Physical Constants"
+msgstr ""
+
+#: Physics/PhysicsView.cpp:1466
+msgid "Behavior Settings"
+msgstr ""
+
+#: Physics/PhysicsView.cpp:1467
+msgid "Immunities and Weaknesses"
+msgstr ""
+
+#: Physics/PhysicsView.cpp:1470
+msgid "Effects"
+msgstr ""
+
+#: Physics/PhysicsView.cpp:1476
+msgid "Shots"
+msgstr ""
+
+#: Physics/PhysicsView.cpp:1483
+msgid "Walking"
+msgstr ""
+
+#: Physics/PhysicsView.cpp:1484
+msgid "Running"
+msgstr ""
+
+#: Physics/PhysicsView.cpp:1486
+msgid "Weapons"
+msgstr ""
+
+#: Physics/PhysicsView.cpp:1491
+msgid "Weapon Definition"
+msgstr ""
+
+#: Physics/PhysicsView.cpp:1492
+msgid "Trigger Settings"
 msgstr ""
