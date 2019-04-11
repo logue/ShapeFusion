@@ -97,6 +97,17 @@ ShapesView::~ShapesView(void)
 
 bool ShapesView::OnCreate(wxDocument *doc, long WXUNUSED(flags))
 {
+	// Make Traslatable
+	wxLocale::AddCatalogLookupPathPrefix("lang");
+
+	wxLocale locale;
+	// Add Japanese support.
+	locale.Init( wxLANGUAGE_JAPANESE, wxLOCALE_DONT_LOAD_DEFAULT );
+	// ShapeFusion Dictionary
+	locale.AddCatalog("messages");
+	// WxWidget Standard Dictionary
+	locale.AddCatalog("wxstd");
+	
 	wxString	frameTitle = _("ShapeFusion : Shapes : ");
 	
 	frameTitle.Append(doc->GetFilename());

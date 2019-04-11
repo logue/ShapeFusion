@@ -63,7 +63,7 @@ void CreateFileMenu(wxMenuBar *menu_bar)
 	file_menu->Enable(FILE_MENU_CLOSE, false);
 	
 	// We add the File menu to the passed menubar
-	menu_bar->Append(file_menu, wxT("&File"));
+	menu_bar->Append(file_menu, _("&File"));
 }
 
 void CreateEditMenu(wxMenuBar *menu_bar)

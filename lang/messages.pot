@@ -3,25 +3,19 @@
 # This file is distributed under the same license as the PACKAGE package.
 # FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
 #
+#, fuzzy
 msgid ""
 msgstr ""
-"Project-Id-Version: ShapeFusion\n"
+"Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2019-04-11 08:51+0900\n"
-"PO-Revision-Date: 2019-04-11 09:01+0900\n"
-"Last-Translator: \n"
-"Language-Team: logue@hotmail.co.jp\n"
-"Language: ja\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"Language: \n"
 "MIME-Version: 1.0\n"
-"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Type: text/plain; charset=CHARSET\n"
 "Content-Transfer-Encoding: 8bit\n"
-"X-Generator: Poedit 2.2.1\n"
-"Plural-Forms: nplurals=1; plural=0;\n"
-"X-Poedit-SourceCharset: UTF-8\n"
-"X-Poedit-Basepath: ../..\n"
-"X-Poedit-SearchPath-0: .\n"
-"X-Poedit-SearchPath-1: Shapes\n"
-"X-Poedit-SearchPath-2: Sounds\n"
 
 #: DefaultNames.cpp:26 DefaultNames.cpp:82 DefaultNames.cpp:111
 msgid "Marine"
@@ -84,7 +78,6 @@ msgid "Security Bob"
 msgstr ""
 
 #: DefaultNames.cpp:41 DefaultNames.cpp:124
-#| msgid "Associated bitmap:"
 msgid "Assimilated Bob"
 msgstr ""
 
@@ -214,7 +207,7 @@ msgstr ""
 
 #: DefaultNames.cpp:76
 msgid "Interface"
-msgstr "インターフェース"
+msgstr ""
 
 #: DefaultNames.cpp:77
 msgid "Weapons in Hand"
@@ -485,7 +478,6 @@ msgid "Bob Hit"
 msgstr ""
 
 #: DefaultNames.cpp:167
-#| msgid "Associated bitmap:"
 msgid "Assimilated Bob Hit"
 msgstr ""
 
@@ -734,7 +726,6 @@ msgid "VacBob Hit"
 msgstr ""
 
 #: DefaultNames.cpp:229
-#| msgid "Associated bitmap:"
 msgid "Assimilated VacBob Hit"
 msgstr ""
 
@@ -889,7 +880,7 @@ msgstr ""
 
 #: DefaultNames.cpp:278
 msgid "Unused 1"
-msgstr "未使用１"
+msgstr ""
 
 #: DefaultNames.cpp:279
 msgid "Oxygen Warning"
@@ -904,7 +895,6 @@ msgid "Oxygen Refuel"
 msgstr ""
 
 #: DefaultNames.cpp:283
-#| msgid "Can't change pitch"
 msgid "Can't Toggle Switch"
 msgstr ""
 
@@ -934,7 +924,7 @@ msgstr ""
 
 #: DefaultNames.cpp:290
 msgid "Adjust Volume"
-msgstr "ボリューム調整"
+msgstr ""
 
 #: DefaultNames.cpp:291
 msgid "Got Powerup"
@@ -1130,7 +1120,7 @@ msgstr ""
 
 #: DefaultNames.cpp:342
 msgid "Unused 2"
-msgstr "未使用２"
+msgstr ""
 
 #: DefaultNames.cpp:343
 msgid "Drone Activate"
@@ -1718,11 +1708,11 @@ msgstr ""
 
 #: DefaultNames.cpp:505
 msgid "unused 1"
-msgstr "未使用１"
+msgstr ""
 
 #: DefaultNames.cpp:506
 msgid "unused 2"
-msgstr "未使用２"
+msgstr ""
 
 #: DefaultNames.cpp:507
 msgid "Missile 2"
@@ -1802,139 +1792,139 @@ msgstr ""
 
 #: DefaultNames.cpp:628
 msgid "None"
-msgstr "なし"
+msgstr ""
 
 #: ShapeFusionApp.cpp:77 ShapeFusionApp.cpp:79
 msgid "ShapeFusion Workspace"
-msgstr "ShapeFusion ワークスペース"
+msgstr ""
 
 #: ShapeFusionDocManager.cpp:45 ShapeFusionDocManager.cpp:68
 msgid "Sounds"
-msgstr "サウンド"
+msgstr ""
 
 #: ShapeFusionDocManager.cpp:99
 msgid "Shapes"
-msgstr "形態"
+msgstr ""
 
 #: ShapeFusionDocManager.cpp:121
 msgid "Physics"
-msgstr "物理"
+msgstr ""
 
 #: ShapeFusionDocManager.cpp:131
 msgid "Select a file"
-msgstr "ファイルを選択"
+msgstr ""
 
 #: ShapeFusionDocManager.cpp:143
 msgid "File error"
-msgstr "ファイルエラー"
+msgstr ""
 
 #: ShapeFusionDocManager.cpp:146
 msgid "Sorry, could not open this file."
-msgstr "このファイルを開くことができませんでした。"
+msgstr ""
 
 #: ShapeFusionDocManager.cpp:159
 msgid "Sorry, the format for this file is unknown."
-msgstr "このファイルを開くことができませんでした。"
+msgstr ""
 
 #: ShapeFusionDocManager.cpp:159
 msgid "Open File"
-msgstr "ファイルを開く"
+msgstr ""
 
 #: ShapeFusionMain.cpp:47 ShapeFusionMenus.cpp:97
 msgid "About ShapeFusion"
-msgstr "ShapeFusionについて"
+msgstr ""
 
 #: ShapeFusionMenus.cpp:47
 msgid "Open...\tCtrl+O"
-msgstr "開く…\tCtrl+O"
+msgstr ""
 
 #: ShapeFusionMenus.cpp:48
 msgid "Open Recent..."
-msgstr "最近開いたファイル..."
+msgstr ""
 
 #: ShapeFusionMenus.cpp:49
 msgid "&Close\tCtrl+W"
-msgstr "閉じる(&W)\tCtrl+W"
+msgstr ""
 
 #: ShapeFusionMenus.cpp:51
 msgid "&Save\tCtrl+S"
-msgstr "保存(&S)\tCtrl+S"
+msgstr ""
 
 #: ShapeFusionMenus.cpp:52
 msgid "Save as...\tCtrl+Shift+S"
-msgstr "別名で保存…\tCtrl+Shift+S"
+msgstr ""
 
 #: ShapeFusionMenus.cpp:53
 msgid "&Revert"
-msgstr "復元(&R)"
+msgstr ""
 
 #: ShapeFusionMenus.cpp:55
 msgid "&Print..."
-msgstr "印刷…(&P)"
+msgstr ""
 
 #: ShapeFusionMenus.cpp:56
 msgid "Print &Setup..."
-msgstr "印刷設定(&S)…"
+msgstr ""
 
 #: ShapeFusionMenus.cpp:57
 msgid "Print Pre&view"
-msgstr "印刷プレビュー(&V)"
+msgstr ""
 
 #: ShapeFusionMenus.cpp:59
 msgid "&Quit\tAlt+F4"
-msgstr "終了(&Q)\tAlt+4"
+msgstr ""
 
 #: ShapeFusionMenus.cpp:66
 msgid "&File"
-msgstr "ファイル(&F)"
+msgstr ""
 
 #: ShapeFusionMenus.cpp:74
 msgid "&Undo\tCtrl+Z"
-msgstr "取り消し(&U)\tCtrl+Z"
+msgstr ""
 
 #: ShapeFusionMenus.cpp:75
 msgid "&Redo\tCtrl+Shift+Z"
-msgstr "やり直し(&R)\tCtrl+Shift+Z"
+msgstr ""
 
 #: ShapeFusionMenus.cpp:77
 msgid "&Cut\tCtrl+X"
-msgstr "カット(&C)\tCtrl+X"
+msgstr ""
 
 #: ShapeFusionMenus.cpp:78
 msgid "&Copy\tCtrl+C"
-msgstr "コピー(&C)\tCtrl+C"
+msgstr ""
 
 #: ShapeFusionMenus.cpp:79
 msgid "&Paste\tCtrl+V"
-msgstr "ペースト(&P)\tCtrl+V"
+msgstr ""
 
 #: ShapeFusionMenus.cpp:81
 msgid "&Delete"
-msgstr "削除(&D)"
+msgstr ""
 
 #: ShapeFusionMenus.cpp:89
 msgid "&Edit"
-msgstr "編集(&E)"
+msgstr ""
 
 #: ShapeFusionMenus.cpp:98
 msgid "ShapeFusion Help"
-msgstr "ShapeFusionヘルプ"
+msgstr ""
 
 #: ShapeFusionMenus.cpp:100
 msgid "&Help"
-msgstr "ヘルプ(&H)"
+msgstr ""
 
 #: ShapeFusionMenus.cpp:118
 msgid "Small"
-msgstr "小"
+msgstr ""
 
 #: ShapeFusionMenus.cpp:119 Sounds/SoundsView.cpp:97
 msgid "Medium"
-msgstr "中"
+msgstr ""
 
 #: ShapeFusionMenus.cpp:120
 msgid "Large"
-msgstr "大"
+msgstr ""
 
 #: ShapeFusionMenus.cpp:121
 msgid "Best fit"
@@ -1942,91 +1932,91 @@ msgstr ""
 
 #: ShapeFusionMenus.cpp:127
 msgid "Use color table"
-msgstr "カラーテーブルを使用"
+msgstr ""
 
 #: ShapeFusionMenus.cpp:128
 msgid "Thumbnail size"
-msgstr "サムネイルサイズ"
+msgstr ""
 
 #: ShapeFusionMenus.cpp:129
 msgid "Show transparent pixels"
-msgstr "透過ピクセルを表示"
+msgstr ""
 
 #: ShapeFusionMenus.cpp:130
 msgid "Fix frame origins"
-msgstr "フレームのオプションを解決"
+msgstr ""
 
 #: ShapeFusionMenus.cpp:133
 msgid "&View"
-msgstr "表示(&V)"
+msgstr ""
 
 #: ShapeFusionMenus.cpp:142
 msgid "New color table..."
-msgstr "新規カラーテーブル…"
+msgstr ""
 
 #: ShapeFusionMenus.cpp:143
 msgid "Export color table to GIMP..."
-msgstr "GIMP用のカラーテーブルとしてエクスポート…"
+msgstr ""
 
 #: ShapeFusionMenus.cpp:144
 msgid "Export color table to PhotoShop..."
-msgstr "PhotoShop用カラーテーブルとしてエクスポート…"
+msgstr ""
 
 #: ShapeFusionMenus.cpp:146
 msgid "New bitmap..."
-msgstr "ビットマップを作成…"
+msgstr ""
 
 #: ShapeFusionMenus.cpp:147
 msgid "Export bitmap..."
-msgstr "ビットマップをエクスポート…"
+msgstr ""
 
 #: ShapeFusionMenus.cpp:148
 msgid "Export bitmap mask..."
-msgstr "ビットマップマスクをエクスポート…"
+msgstr ""
 
 #: ShapeFusionMenus.cpp:149
 msgid "Export all bitmaps..."
-msgstr "すべてのビットマップをエクスポート…"
+msgstr ""
 
 #: ShapeFusionMenus.cpp:150
 msgid "Export all bitmap masks..."
-msgstr "すべてのビットマップマスクをエクスポート…"
+msgstr ""
 
 #: ShapeFusionMenus.cpp:152
 msgid "New frame"
-msgstr "新規フレーム"
+msgstr ""
 
 #: ShapeFusionMenus.cpp:154
 msgid "New sequence"
-msgstr "新規シーケンス"
+msgstr ""
 
 #: ShapeFusionMenus.cpp:156
 msgid "Apply Shapes Patch..."
-msgstr "形態パッチを適用…"
+msgstr ""
 
 #: ShapeFusionMenus.cpp:157
 msgid "Export Shapes Patch..."
-msgstr "形態パッチをエクスポート…"
+msgstr ""
 
 #: ShapeFusionMenus.cpp:172
 msgid "&Shapes"
-msgstr "形態(&S)"
+msgstr ""
 
 #: ShapeFusionMenus.cpp:181
 msgid "Add new sound class"
-msgstr "サウンドクラスを追加"
+msgstr ""
 
 #: ShapeFusionMenus.cpp:183
 msgid "Export selected sound"
-msgstr "選択されたサウンドをエクスポート"
+msgstr ""
 
 #: ShapeFusionMenus.cpp:184
 msgid "Import sound"
-msgstr "サウンドをインポート"
+msgstr ""
 
 #: ShapeFusionMenus.cpp:192
 msgid "S&ounds"
-msgstr "サウンド(&S)"
+msgstr ""
 
 #: Shapes/BitmapBrowser.cpp:257
 msgid "[BitmapBrowser] Added a bitmap with NULL pixels"
@@ -2038,39 +2028,39 @@ msgstr ""
 
 #: Shapes/SequenceView.cpp:571
 msgid "Change frame:"
-msgstr "フレームを変更："
+msgstr ""
 
 #: Shapes/SequenceView.cpp:571
 msgid "Chage frame"
-msgstr "フレームを変更"
+msgstr ""
 
 #: Shapes/ShapesView.cpp:111
 msgid "ShapeFusion : Shapes : "
-msgstr "ShapeFusion：形態： "
+msgstr ""
 
 #: Shapes/ShapesView.cpp:138 Shapes/ShapesView.cpp:139
 msgid "Collection info"
-msgstr "コレクション情報"
+msgstr ""
 
 #: Shapes/ShapesView.cpp:149
 msgid "Version info"
-msgstr "バージョン情報"
+msgstr ""
 
 #: Shapes/ShapesView.cpp:152
 msgid "Not defined"
-msgstr "未定義"
+msgstr ""
 
 #: Shapes/ShapesView.cpp:156
 msgid "Version:"
-msgstr "バージョン："
+msgstr ""
 
 #: Shapes/ShapesView.cpp:157
 msgid "Collection type:"
-msgstr "コレクション種別："
+msgstr ""
 
 #: Shapes/ShapesView.cpp:158
 msgid "Flags:"
-msgstr "フラグ："
+msgstr ""
 
 #: Shapes/ShapesView.cpp:159
 msgid "Collection scale factor:"
@@ -2082,31 +2072,31 @@ msgstr ""
 
 #: Shapes/ShapesView.cpp:161
 msgid "Unused"
-msgstr "未使用"
+msgstr ""
 
 #: Shapes/ShapesView.cpp:162
 msgid "Wall textures"
-msgstr "壁のテスクチュア"
+msgstr ""
 
 #: Shapes/ShapesView.cpp:163
 msgid "Objects"
-msgstr "オブジェクト"
+msgstr ""
 
 #: Shapes/ShapesView.cpp:164
 msgid "Interface graphics"
-msgstr "インターフェースのグラフィック"
+msgstr ""
 
 #: Shapes/ShapesView.cpp:165
 msgid "Scenery objects"
-msgstr "背景オブジェクト"
+msgstr ""
 
 #: Shapes/ShapesView.cpp:189
 msgid "N color tables"
-msgstr "N個のカラーテーブル"
+msgstr ""
 
 #: Shapes/ShapesView.cpp:190
 msgid "Color table N of M"
-msgstr "N～Mのカラーテーブル"
+msgstr ""
 
 #: Shapes/ShapesView.cpp:194
 msgid "Self-luminescent color"
@@ -2114,15 +2104,15 @@ msgstr ""
 
 #: Shapes/ShapesView.cpp:195
 msgid "Make gradient"
-msgstr "グラデーションを作成"
+msgstr ""
 
 #: Shapes/ShapesView.cpp:211
 msgid "N bitmaps"
-msgstr "N個のビットマップ"
+msgstr ""
 
 #: Shapes/ShapesView.cpp:212
 msgid "Bitmap N of M"
-msgstr "N~Mのビットマップ"
+msgstr ""
 
 #: Shapes/ShapesView.cpp:215
 msgid "AxB pixels"
@@ -2134,27 +2124,25 @@ msgstr ""
 
 #: Shapes/ShapesView.cpp:217
 msgid "Enable transparency"
-msgstr "透過を有効"
+msgstr ""
 
 #: Shapes/ShapesView.cpp:238
 msgid "N frames"
-msgstr "N個のフレーム"
+msgstr ""
 
 #: Shapes/ShapesView.cpp:239
 msgid "Frame N"
-msgstr "フレームN"
+msgstr ""
 
 #: Shapes/ShapesView.cpp:241
 msgid "Associated bitmap:"
-msgstr "関連付けられたビットマップ："
+msgstr ""
 
 #: Shapes/ShapesView.cpp:243
-#| msgid "Error"
 msgid "X mirror"
 msgstr ""
 
 #: Shapes/ShapesView.cpp:244
-#| msgid "Error"
 msgid "Y mirror"
 msgstr ""
 
@@ -2188,7 +2176,7 @@ msgstr ""
 
 #: Shapes/ShapesView.cpp:290
 msgid "Sequence"
-msgstr "シーケンス"
+msgstr ""
 
 #: Shapes/ShapesView.cpp:295
 msgid "Name:"
@@ -2200,31 +2188,31 @@ msgstr ""
 
 #: Shapes/ShapesView.cpp:297 Shapes/ShapesView.cpp:1232
 msgid "Delete sequence"
-msgstr "シーケンスを削除"
+msgstr ""
 
 #: Shapes/ShapesView.cpp:306
 msgid "Sequence type:"
-msgstr "シーケンス種別："
+msgstr ""
 
 #: Shapes/ShapesView.cpp:307
 msgid "Display a random frame"
-msgstr "ランダムフレームを表示"
+msgstr ""
 
 #: Shapes/ShapesView.cpp:308
 msgid "Animation with 1 view"
-msgstr "単方向アニメーション"
+msgstr ""
 
 #: Shapes/ShapesView.cpp:309
 msgid "Animation with 4 views"
-msgstr "４方向アニメーション"
+msgstr ""
 
 #: Shapes/ShapesView.cpp:310
 msgid "Animation with 5 views"
-msgstr "５方向アニメーション"
+msgstr ""
 
 #: Shapes/ShapesView.cpp:311
 msgid "Animation with 8 views"
-msgstr "８方向アニメーション"
+msgstr ""
 
 #: Shapes/ShapesView.cpp:313
 msgid "Frames per view:"
@@ -2232,15 +2220,15 @@ msgstr ""
 
 #: Shapes/ShapesView.cpp:315
 msgid "Ticks per frame:"
-msgstr "Ticあたりのフレーム："
+msgstr ""
 
 #: Shapes/ShapesView.cpp:317
 msgid "Loop at frame:"
-msgstr "ループ先のフレーム"
+msgstr ""
 
 #: Shapes/ShapesView.cpp:319
 msgid "Key frame:"
-msgstr "キーフレーム："
+msgstr ""
 
 #: Shapes/ShapesView.cpp:337
 msgid "Transfer mode:"
@@ -2248,7 +2236,7 @@ msgstr ""
 
 #: Shapes/ShapesView.cpp:338
 msgid "Normal"
-msgstr "通常"
+msgstr ""
 
 #: Shapes/ShapesView.cpp:339
 msgid "Fade out to black"
@@ -2348,7 +2336,7 @@ msgstr ""
 
 #: Shapes/ShapesView.cpp:366
 msgid "Key frame sound:"
-msgstr "キーフレームサウンド："
+msgstr ""
 
 #: Shapes/ShapesView.cpp:368
 msgid "Last frame sound:"
@@ -2364,27 +2352,27 @@ msgstr ""
 
 #: Shapes/ShapesView.cpp:436
 msgid "Bitmaps"
-msgstr "ビットマップ"
+msgstr ""
 
 #: Shapes/ShapesView.cpp:437
 msgid "Color tables"
-msgstr "カラーテーブル"
+msgstr ""
 
 #: Shapes/ShapesView.cpp:438
 msgid "Frames"
-msgstr "フレーム"
+msgstr ""
 
 #: Shapes/ShapesView.cpp:439
 msgid "Sequences"
-msgstr "シーケンス"
+msgstr ""
 
 #: Shapes/ShapesView.cpp:634
 msgid "Import a color table"
-msgstr "カラーテーブルをインポート"
+msgstr ""
 
 #: Shapes/ShapesView.cpp:635
 msgid "Photoshop color table|*.act|Gimp palette|*.gpl"
-msgstr "Photoshopのカラーテーブル|*.act|Gimpパレット|*.gpl"
+msgstr ""
 
 #: Shapes/ShapesView.cpp:648
 msgid ""
@@ -2398,7 +2386,6 @@ msgid "Invalid chroma key color"
 msgstr ""
 
 #: Shapes/ShapesView.cpp:687 Shapes/ShapesView.cpp:694
-#| msgid "Sorry, could not open this file."
 msgid "Sorry, could not load a color table from "
 msgstr ""
 
@@ -2407,7 +2394,6 @@ msgid " because the file format is unknown or the file contains no colors."
 msgstr ""
 
 #: Shapes/ShapesView.cpp:688 Shapes/ShapesView.cpp:695
-#| msgid "Import a color table"
 msgid "Error loading color table"
 msgstr ""
 
@@ -2417,38 +2403,32 @@ msgstr ""
 
 #: Shapes/ShapesView.cpp:710
 #, c-format
-#| msgid " color table"
 msgid "Save color table %d"
 msgstr ""
 
 #: Shapes/ShapesView.cpp:714
 #, c-format
-#| msgid "Color tables"
 msgid "ColorTable%d.act"
 msgstr ""
 
 #: Shapes/ShapesView.cpp:716
 msgid "PhotoShop color table|*.act"
-msgstr "Photoshopのカラーテーブル|*.act"
+msgstr ""
 
 #: Shapes/ShapesView.cpp:719
 #, c-format
-#| msgid "Color tables"
 msgid "ColorTable%d.gpl"
 msgstr ""
 
 #: Shapes/ShapesView.cpp:721
-#| msgid " color table"
 msgid "Gimp color table|*.gpl"
 msgstr ""
 
 #: Shapes/ShapesView.cpp:737
-#| msgid "Sorry, could not open this file."
 msgid "Sorry, could not save color table to "
 msgstr ""
 
 #: Shapes/ShapesView.cpp:738
-#| msgid "Import a color table"
 msgid "Error saving color table"
 msgstr ""
 
@@ -2464,23 +2444,19 @@ msgstr ""
 
 #: Shapes/ShapesView.cpp:776
 #, c-format
-#| msgid " bitmap"
 msgid "%u bitmap"
 msgstr ""
 
 #: Shapes/ShapesView.cpp:789
-#| msgid "Sorry, could not open this file."
 msgid "Sorry, could not load bitmap from "
 msgstr ""
 
 #: Shapes/ShapesView.cpp:790
-#| msgid "Export all bitmaps..."
 msgid "Error adding bitmap"
 msgstr ""
 
 #: Shapes/ShapesView.cpp:804
 #, c-format
-#| msgid "Export bitmap..."
 msgid "Export bitmap %d"
 msgstr ""
 
@@ -2495,7 +2471,6 @@ msgstr ""
 
 #: Shapes/ShapesView.cpp:824
 #, c-format
-#| msgid "Export bitmap mask..."
 msgid "Export bitmap %d mask"
 msgstr ""
 
@@ -2505,13 +2480,11 @@ msgid "bitmap%.3dmask.bmp"
 msgstr ""
 
 #: Shapes/ShapesView.cpp:841 Shapes/ShapesView.cpp:861
-#| msgid "Select a file"
 msgid "Select destination folder"
 msgstr ""
 
 #: Shapes/ShapesView.cpp:890
 #, c-format
-#| msgid " frame"
 msgid "%u frame"
 msgstr ""
 
@@ -2521,28 +2494,27 @@ msgstr ""
 
 #: Shapes/ShapesView.cpp:931
 msgid "Shapes files (*.shpA)|*.shpA|All files (*.*)|*.*"
-msgstr "形態ファイル (*.shpA)|*.shpA|すべてのファイル (*.*)|*.*"
+msgstr ""
 
 #: Shapes/ShapesView.cpp:942
 msgid "Export patch file"
-msgstr "形態パッチのエクスポート"
+msgstr ""
 
 #: Shapes/ShapesView.cpp:942
-#| msgid "Apply Shapes Patch..."
 msgid "Shapes Patch.ShPa"
 msgstr ""
 
 #: Shapes/ShapesView.cpp:942
 msgid "Shapes patch|*.ShPa"
-msgstr "形態パッチ|*.ShPa"
+msgstr ""
 
 #: Shapes/ShapesView.cpp:968
 msgid "Choose a patch file"
-msgstr "パッチファイルを選んでください"
+msgstr ""
 
 #: Shapes/ShapesView.cpp:968
 msgid "Patch files (*.ShPa)|*.ShPa|All files (*.*)|*.*"
-msgstr "パッチファイル (*.ShPa)|*.ShPa|すべてのファイル (*.*)|*.*"
+msgstr ""
 
 #: Shapes/ShapesView.cpp:984
 msgid "Error loading shapes patch; the patch may be partially applied!"
@@ -2559,11 +2531,11 @@ msgstr ""
 
 #: Shapes/ShapesView.cpp:1042
 msgid "Status: "
-msgstr "ステータス："
+msgstr ""
 
 #: Shapes/ShapesView.cpp:1043
 msgid "Flags: "
-msgstr "フラグ："
+msgstr ""
 
 #: Shapes/ShapesView.cpp:1045
 msgid "8-bit color version present\n"
@@ -2591,34 +2563,32 @@ msgstr ""
 
 #: Shapes/ShapesView.cpp:1089
 msgid " color table"
-msgstr " のカラーテーブル"
+msgstr ""
 
 #: Shapes/ShapesView.cpp:1091 Shapes/ShapesView.cpp:1104
 #: Shapes/ShapesView.cpp:1117 Shapes/ShapesView.cpp:1395
 #: Shapes/ShapesView.cpp:1427
 msgid "s"
-msgstr " "
+msgstr ""
 
 #: Shapes/ShapesView.cpp:1093
 msgid ", "
 msgstr ""
 
 #: Shapes/ShapesView.cpp:1093
-#| msgid " color table"
 msgid " colors per table"
 msgstr ""
 
 #: Shapes/ShapesView.cpp:1102 Shapes/ShapesView.cpp:1393
 msgid " bitmap"
-msgstr " のビットマップ"
+msgstr ""
 
 #: Shapes/ShapesView.cpp:1115 Shapes/ShapesView.cpp:1425
 msgid " frame"
-msgstr " のフレーム"
+msgstr ""
 
 #: Shapes/ShapesView.cpp:1149
 #, c-format
-#| msgid "Sequence"
 msgid "Sequence %d of %u"
 msgstr ""
 
@@ -2635,7 +2605,7 @@ msgstr ""
 
 #: Shapes/ShapesView.cpp:1191 Shapes/ShapesView.cpp:1678
 msgid "Delete"
-msgstr "削除"
+msgstr ""
 
 #: Shapes/ShapesView.cpp:1265
 #, c-format
@@ -2653,7 +2623,7 @@ msgstr ""
 
 #: Shapes/ShapesView.cpp:1281
 msgid "Delete bitmap"
-msgstr "ビットマップを削除"
+msgstr ""
 
 #: Shapes/ShapesView.cpp:1528
 #, c-format
@@ -2662,7 +2632,7 @@ msgstr ""
 
 #: Shapes/ShapesView.cpp:1535
 msgid "Delete color table"
-msgstr "カラーテーブルを削除"
+msgstr ""
 
 #: Shapes/ShapesView.cpp:1687
 #, c-format
@@ -2671,19 +2641,19 @@ msgstr ""
 
 #: Shapes/ShapesView.cpp:1708
 msgid "Delete frame"
-msgstr "フレームを削除"
+msgstr ""
 
 #: Sounds/SoundsView.cpp:83
 msgid "ShapeFusion : Sounds : "
-msgstr "ShapeFusion：サウンド： "
+msgstr ""
 
 #: Sounds/SoundsView.cpp:97
 msgid "Soft"
-msgstr "ソフト"
+msgstr ""
 
 #: Sounds/SoundsView.cpp:97
 msgid "Loud"
-msgstr "ラウド"
+msgstr ""
 
 #: Sounds/SoundsView.cpp:103
 msgid "Sound classes: "
@@ -2711,7 +2681,7 @@ msgstr ""
 
 #: Sounds/SoundsView.cpp:115
 msgid "Can't change pitch"
-msgstr "ビッチを変えない"
+msgstr ""
 
 #: Sounds/SoundsView.cpp:116
 msgid "Can't be obstructed"
@@ -2723,11 +2693,11 @@ msgstr ""
 
 #: Sounds/SoundsView.cpp:118
 msgid "Is ambient"
-msgstr "周辺サウンド"
+msgstr ""
 
 #: Sounds/SoundsView.cpp:120
 msgid "Volume"
-msgstr "ボリューム"
+msgstr ""
 
 #: Sounds/SoundsView.cpp:122
 msgid "Chance: "
@@ -2772,7 +2742,6 @@ msgid ""
 msgstr ""
 
 #: Sounds/SoundsView.cpp:516
-#| msgid "Export selected sound"
 msgid "Error: No selection"
 msgstr ""
 
@@ -2790,16 +2759,15 @@ msgstr ""
 
 #: Sounds/SoundsView.cpp:527
 msgid "Common sound files (AIFF, WAV)|*.aif;*.wav"
-msgstr "一般的なサウンドファイル (AIFF, WAV)|*.aif;*.wav"
+msgstr ""
 
 #: Sounds/SoundsView.cpp:530
-#| msgid "Import sound"
 msgid "Error importing sound"
 msgstr ""
 
 #: Sounds/SoundsView.cpp:530
 msgid "Error"
-msgstr "エラー"
+msgstr ""
 
 #: Sounds/SoundsView.cpp:544
 msgid ""
@@ -2808,12 +2776,12 @@ msgstr ""
 
 #: Sounds/SoundsView.cpp:544
 msgid "Error : No selection"
-msgstr "エラー：選択されていません"
+msgstr ""
 
 #: Sounds/SoundsView.cpp:549
 msgid "Choose a file name :"
-msgstr "ファイル名を選択："
+msgstr ""
 
 #: Sounds/SoundsView.cpp:549
 msgid "WAV files (*.wav)|*.wav|AIFF files (*.aif)|*.aif"
-msgstr "WAVファイル(*.wav)|*.wav|AIFFファイル(*.aif)|*.aif"
+msgstr ""
